@@ -8,7 +8,7 @@ import os
 from openai import OpenAI
 
 BASE_URL = "https://chatterbox.ee.cooper.edu/api/v1"
-MODEL = "gemma3:27b"  # confirm against /api/v1/models
+MODEL = "nvidia/Gemma-4-26B-A4B-NVFP4"  # confirmed via /api/v1/models
 
 client = OpenAI(base_url=BASE_URL, api_key=os.environ["CHATTERBOX_KEY"])
 

@@ -10,7 +10,11 @@ python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 
 cp .env.example .env          # then paste your Chatterbox key into .env
+export CHATTERBOX_KEY=$(grep CHATTERBOX_KEY .env | cut -d= -f2-)
+
 python llm.py                 # should print a four-word greeting
+                              # this is how YOUR CODE calls Gemma; your coding
+                              # agent is configured separately, in its own config
 ```
 
 Get your key at https://chatterbox.ee.cooper.edu/ — profile → Settings → Account.
@@ -62,7 +66,8 @@ good** — that is what the quiz is for.
 ## Layout
 
 ```
-llm.py                    the only file that knows how to reach Chatterbox
+llm.py                    your programs call this to reach Chatterbox
+opencode.json             points your coding agent at Chatterbox
 snapshot.py               records one step of your work
 check.py                  the checker
 FAILURES.md               one entry per lab — append, never edit others'
