@@ -21,3 +21,12 @@ Did:      parser now takes the first valid object and logs the rest
 ```
 
 ---
+
+## Lab 1
+
+```
+Input:    asked for recent information
+Expected: correct information
+Got:      confidently wrong information
+Did:      enabled web search to increase accuracy
+```
