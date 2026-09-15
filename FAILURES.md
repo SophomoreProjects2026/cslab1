@@ -30,3 +30,12 @@ Expected: correct information
 Got:      confidently wrong information
 Did:      enabled web search to increase accuracy
 ```
+
+## Lab 2
+
+```
+Input:    asked for script output in chat window
+Expected: working script with user input
+Got:      single function
+Did:      had it write the file instead to make sure the output format was the cause.
+```
