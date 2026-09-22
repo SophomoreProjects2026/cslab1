@@ -33,4 +33,3 @@ What’s that? What’s that you say?
 You say today is . . . Saturday?
 G’bye, I’m going out to play!”
 
-I kept going until it reached 112k tokens of context, yet it was able to perfectly repeat the prompt when I asked for it at the end. maybe I should have asked for something more complicated
