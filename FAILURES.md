@@ -39,3 +39,7 @@ Expected: working script with user input
 Got:      single function
 Did:      had it write the file instead to make sure the output format was the cause.
 ```
+
+## Lab 3
+Many errors in the tests that aren't to do with the validity of the program.
+Fixing them is annoying, but unavoidable given my lack of experience with these libraries.

@@ -3,7 +3,7 @@ import subprocess
 
 def lgrep(args, input=None):
     # call lgrep
-    compl = subprocess.run("lgrep "+args, capture_output=True, stdin=input)
+    compl = subprocess.run(("python3 lgrep.py "+args).split(" "), capture_output=True, input=input, text=True)
     return compl.stdout
 
 # basic
@@ -14,7 +14,7 @@ def test_stdin():
 
 @given(
     st.lists(["-i", "-v", "-n", "-c", "-w"], unique=True), 
-    st.text(st.characters(include_characters=("abcdefghijklmnopqrstuvwxyz".split()))),
+    st.text(alphabet="abcdefghijklmnopqrstuvwxyz".split()),
     st.text()
 )
 def test_exit_0(flags, pattern, input):
@@ -30,7 +30,7 @@ def test_v():
     assert lgrep("-v goodbye -", "hello world") == "hello world"
 
 def test_n():
-    assert lgrep("-n goodbye -", "hello world\ngoodbye world").startswith(13)
+    assert lgrep("-n goodbye -", "hello world\ngoodbye world").startswith("13")
 
 def test_c():
     assert lgrep("-c world -", "hello world, goodbye world") == "2"
@@ -44,8 +44,8 @@ def test_cv():
 # output
 
 def test_file(tmp_path_factory):
-    dir_name = tmp_path_factory.mktemp("temp")
-    file1 = open(dir_name+"/file.txt")
+    dir_name = tmp_path_factory.mktemp("temp") / "file.txt"
+    file1 = open(dir_name)
     file1.write("hello world, goodbye world")
     file1.close()
 
@@ -53,11 +53,11 @@ def test_file(tmp_path_factory):
 
 
 def test_multifile(tmp_path_factory):
-    dir_name = tmp_path_factory.mktemp("temp")
-    file1 = open(dir_name+"/1.txt")
+    dir_name = tmp_path_factory.mktemp("temp") 
+    file1 = open(dir_name / "1.txt")
     file1.write("hello world")
     file1.close()
-    file2 = open(dir_name+"/2.txt")
+    file2 = open(dir_name / "2.txt")
     file2.write("goodbye world")
     file2.close()
 
