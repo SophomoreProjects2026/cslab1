@@ -13,33 +13,33 @@ def test_stdin():
     
 
 @given(
-    st.lists(["-i", "-v", "-n", "-c", "-w"], unique=True), 
-    st.text(alphabet="abcdefghijklmnopqrstuvwxyz".split()),
+    st.lists(st.just(("-i", "-v", "-n", "-c", "-w")), unique=True), 
+    st.text(alphabet=list("abcdefghijklmnopqrstuvwxyz")),
     st.text()
 )
 def test_exit_0(flags, pattern, input):
-    compl = subprocess.run("lgrep "+flags.join(" ")+" "+pattern+" -", stdin=input)
+    compl = subprocess.run("lgrep "+" ".join(flags)+" "+pattern+" -", stdin=input)
     assert compl.returncode == 0
 
 # flags
 
 def test_i():
-    assert lgrep("-i HELLO -", "hello world") == "hello world"
+    assert lgrep("-i HELLO -", "hello world").strip() == "hello world"
 
 def test_v():
-    assert lgrep("-v goodbye -", "hello world") == "hello world"
+    assert lgrep("-v goodbye -", "hello world").strip() == "hello world"
 
 def test_n():
     assert lgrep("-n goodbye -", "hello world\ngoodbye world").startswith("13")
 
 def test_c():
-    assert lgrep("-c world -", "hello world, goodbye world") == "2"
+    assert lgrep("-c world -", "hello world, goodbye world").strip() == "2"
     
 def test_w():
-    assert lgrep("-w world -", "hello world\nhelloworld\nhello world hello") == "hello world\nhello world hello"
+    assert lgrep("-w world -", "hello world\nhelloworld\nhello world hello").strip() in ["hello world\nhello world hello"]
 
 def test_cv():
-    assert lgrep("-w -c goodbye -", "hello world") == "1"
+    assert lgrep("-w -c goodbye -", "hello world").strip() == "1"
 
 # output
 
@@ -51,7 +51,7 @@ def test_file():
     assert lgrep(f"-c world single_file.txt").strip() == "2"
 
 
-def test_multifile(tmp_path_factory):
+def test_multifile():
     file1 = open("1.txt", "w+")
     file1.write("hello world")
     file1.close()
@@ -64,7 +64,7 @@ def test_multifile(tmp_path_factory):
 
 #errors
 def test_unreadablefile():
-    compl = subprocess.run("pattern nonexistent.txt", capture_output=True)
+    compl = subprocess.run("python3 lgrep.py pattern nonexistent.txt", capture_output=True, text=True)
     assert compl.stderr != ""
     assert "nonexistent.txt" in compl.stderr
 
