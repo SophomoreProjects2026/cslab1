@@ -43,29 +43,27 @@ def test_cv():
 
 # output
 
-def test_file(tmp_path_factory):
-    dir_name = tmp_path_factory.mktemp("temp") / "file.txt"
-    file1 = open(dir_name)
+def test_file():
+    file1 = open("single_file.txt", "w+")
     file1.write("hello world, goodbye world")
     file1.close()
 
-    assert lgrep(f"-c world {dir_name}/file.txt") == "2"
+    assert lgrep(f"-c world single_file.txt").strip() == "2"
 
 
 def test_multifile(tmp_path_factory):
-    dir_name = tmp_path_factory.mktemp("temp") 
-    file1 = open(dir_name / "1.txt")
+    file1 = open("1.txt", "w+")
     file1.write("hello world")
     file1.close()
-    file2 = open(dir_name / "2.txt")
+    file2 = open("2.txt", "w+")
     file2.write("goodbye world")
     file2.close()
 
-    assert lgrep(f"-c world {dir_name}/1.txt {dir_name}/2.txt") == "2"
-    assert lgrep(f"world {dir_name}/1.txt {dir_name}/2.txt").startswith("1.txt:")
+    assert lgrep(f"-c world 1.txt 2.txt").strip() == "2"
+    assert lgrep(f"world 1.txt 2.txt").startswith("1.txt:")
 
 #errors
-def test_unreadablefile(capsys):
+def test_unreadablefile():
     compl = subprocess.run("pattern nonexistent.txt", capture_output=True)
     assert compl.stderr != ""
     assert "nonexistent.txt" in compl.stderr
@@ -82,10 +80,10 @@ def test_apple():
 def test_n_apple():
     assert lgrep("-n apple -", fruit) == "0:apple banana apple\n26:APPLE apple"
 def test_c_apple():
-    assert lgrep("-c apple -", fruit) == "3"
+    assert lgrep("-c apple -", fruit).strip() == "3"
 def test_ci_apple():
-    assert lgrep("-ci apple -", fruit) == "4"
+    assert lgrep("-ci apple -", fruit).strip() == "4"
 def test_cv_apple():
-    assert lgrep("-cv apple -", fruit) == "1"
+    assert lgrep("-cv apple -", fruit).strip() == "1"
 def test_zebra():
-    assert lgrep("zebra -", fruit) == ""
+    assert lgrep("zebra -", fruit).strip() == ""

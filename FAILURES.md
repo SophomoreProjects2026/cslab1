@@ -41,5 +41,9 @@ Did:      had it write the file instead to make sure the output format was the c
 ```
 
 ## Lab 3
-Many errors in the tests that aren't to do with the validity of the program.
-Fixing them is annoying, but unavoidable given my lack of experience with these libraries.
+```
+Input:    "implement lgrep in python according to spec-v1.md. do not look at the tests. they will be used later to evaluate this draft"
+Expected: working script
+Got:      broken -n argument
+Did:      asked it to fix, reiterating the instruction.
+```
