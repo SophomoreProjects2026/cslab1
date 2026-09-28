@@ -48,6 +48,7 @@ def main():
 
     multiple_files = len(files) > 1
 
+    total_count = 0
     for filename in files:
         try:
             if filename == '-':
@@ -58,7 +59,6 @@ def main():
             sys.stderr.write(f"lgrep: {filename}: {e}\n")
             continue
 
-        file_count = 0
         offset = 0
         
         while True:
@@ -77,9 +77,9 @@ def main():
             if options['c']:
                 if options['v']:
                     if num_matches == 0:
-                        file_count += 1
+                        total_count += 1
                 else:
-                    file_count += num_matches
+                    total_count += num_matches
             else:
                 selected = False
                 if options['v']:
@@ -95,17 +95,14 @@ def main():
                         output = f"{offset}:{output}"
                     if multiple_files:
                         output = f"{filename}:{output}"
-                    sys.stdout.write(output)
+                    sys.stdout.buffer.write(output.encode('utf-8'))
 
             offset += len(line_bytes)
         
         f.close()
-        
-        if options['c']:
-            if multiple_files:
-                sys.stdout.write(f"{filename}:{file_count}\n")
-            else:
-                sys.stdout.write(f"{file_count}\n")
+
+    if options['c']:
+        sys.stdout.buffer.write(f"{total_count}\n".encode('utf-8'))
 
 if __name__ == "__main__":
     main()

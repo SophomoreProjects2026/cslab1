@@ -1,0 +1,1 @@
+- Noted that when using multiple files with -c, it should sum the counts.
