@@ -1,1 +1,2 @@
 - Noted that when using multiple files with -c, it should sum the counts.
+- Corrected the bute offset fruit example to account for newlines on windows.

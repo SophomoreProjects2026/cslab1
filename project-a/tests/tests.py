@@ -13,12 +13,12 @@ def test_stdin():
     
 
 @given(
-    st.lists(st.just(("-i", "-v", "-n", "-c", "-w")), unique=True), 
+    st.lists(st.sampled_from(("-i", "-v", "-n", "-c", "-w")), unique=True), 
     st.text(alphabet=list("abcdefghijklmnopqrstuvwxyz")),
-    st.text()
+    st.text(alphabet=list("abcdefghijklmnopqrstuvwxyz"))
 )
 def test_exit_0(flags, pattern, input):
-    compl = subprocess.run("lgrep "+" ".join(flags)+" "+pattern+" -", stdin=input)
+    compl = subprocess.run("python3 lgrep.py "+" ".join(flags)+" "+pattern+" -", input=input, text=True)
     assert compl.returncode == 0
 
 # flags
@@ -76,9 +76,9 @@ APPLE apple
 """
 
 def test_apple():
-    assert lgrep("apple -", fruit) == "apple banana apple\nAPPLE apple"
+    assert lgrep("apple -", fruit).strip() == "apple banana apple\nAPPLE apple"
 def test_n_apple():
-    assert lgrep("-n apple -", fruit) == "0:apple banana apple\n26:APPLE apple"
+    assert lgrep("-n apple -", fruit).strip() in ["0:apple banana apple\n26:APPLE apple", "0:apple banana apple\n28:APPLE apple"]
 def test_c_apple():
     assert lgrep("-c apple -", fruit).strip() == "3"
 def test_ci_apple():

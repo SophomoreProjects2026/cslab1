@@ -87,6 +87,13 @@ $ lgrep -n apple fruit.txt
 0:apple banana apple
 26:APPLE apple
 
+OR
+
+0:apple banana apple
+28:APPLE apple
+
+depending on platform
+
 $ lgrep -c apple fruit.txt
 3
 
