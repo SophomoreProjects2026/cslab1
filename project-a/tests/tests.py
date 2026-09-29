@@ -39,7 +39,7 @@ def test_w():
     assert lgrep("-w world -", "hello world\nhelloworld\nhello world hello").strip() in ["hello world\nhello world hello"]
 
 def test_cv():
-    assert lgrep("-w -c goodbye -", "hello world").strip() == "1"
+    assert lgrep("-c -v goodbye -", "hello world").strip() == "1"
 
 # output
 
