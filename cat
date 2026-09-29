@@ -1,0 +1,107 @@
+commit 2013722e923541aecb09e54b742ab54a4bd567f7
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 20:56:24 2026 -0400
+
+    delete test files created by gemma
+
+commit 6267a2bffdec542af38e81ed3c8f3eb41cf9a18b
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 20:51:24 2026 -0400
+
+    snapshot(lab5): i feel like an idiot. a bumbling fool. a moron or immense proportions. a gargantuan buffoon. the final failing test was, again, incorrect, but this time Gemma caught the problem before I did. I should have realized it sooner. Christ, this is embarassing.
+
+commit a927b95904e42764f73acbadf6296665482cca83
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 20:31:40 2026 -0400
+
+    snapshot(lab5): fixed the text_exit_0 test to properly call lgrep and pass hypothesis-generated input.
+
+commit ead5efc7c1c903e27f2736ef30ada8da176d31e2
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 20:22:45 2026 -0400
+
+    snapshot(lab5): fixed the text_exit_0 test to properly call lgrep and pass hypothesis-generated input.
+
+commit 2ff7282cddb4cbcec2e0e3856f087b0fa9319f95
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 19:37:56 2026 -0400
+
+    snapshot(lab5): two problems fixed. -c with multiple files now outputs the sum of lines, and double linebreaks with -w have been removed. Interestingly, the model decided to create its own, separate test_lgrep.py file to check its work.
+
+commit 0e4cd5250bb63b4d54b2c97b305e18708abace66
+Author: Dev8Point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 19:16:02 2026 -0400
+
+    snapshot(lab5): fixed tests so that all failures are true failures and not test errors
+
+commit a760aee1c962f4f2d61e91360360a5ff19a99534
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Mon Sep 28 16:48:26 2026 -0400
+
+    init project A
+
+commit 4ddf84356c87c166dd9ad904a6c64b871cec31ff
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 22 13:44:43 2026 -0400
+
+    snapshot(lab3): first draft made, working out kinks with tests. will move on to actual corrections soon
+
+commit c9b2f0cdd6e20ad3ba184456355af6d9a8ae870d
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 22 13:29:08 2026 -0400
+
+    snapshot(lab3): added the first draft of tests and set gemma on its way
+
+commit 97313ef55f50f378dc4655e4dbfe5db9ae980e84
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 22 10:17:44 2026 -0400
+
+    move work into correct folder
+
+commit 131ad83a3adb9ecd24601cb80d00732e469fae73
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 15 13:34:49 2026 -0400
+
+    lab 2
+
+commit 84dc1e79928202d148a33e43cd32107c9be8ce3c
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 15 13:17:06 2026 -0400
+
+    snapshot(lab2): asked to write script, received single function
+
+commit da053c6d7b5dc6a15b1e62c05294e4cc37bac68a
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 8 13:40:28 2026 -0400
+
+    MAKE CHANGFE
+
+commit 46c8615987a7e38efef75cd4b2b3a6356c7ab7ac
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 8 06:57:13 2026 -0400
+
+    snapshot(lab1): asked about openai's most recent model with and without webseach.
+
+commit 28bcdc08b1b47cd448ae1a996b0eaecf76775161
+Author: cloud8point5 <accounts@cloud8point5.com>
+Date:   Tue Sep 8 06:46:18 2026 -0400
+
+    snapshot(lab1): asked for a fun fact five times at default and 0 temperature
+
+commit a6c0ec4cb5b5c35e4401290dd15589f5c738a2ab
+Author: Your Name <your-email@example.com>
+Date:   Thu Sep 3 15:27:24 2026 -0400
+
+    Remove instructor notes from the student template
+
+commit 21e0e2ad9356a3fbab34a7762f4cde9e93725fe2
+Author: Your Name <your-email@example.com>
+Date:   Thu Sep 3 15:20:50 2026 -0400
+
+    Point OpenCode and llm.py at the real Chatterbox model
+
+commit 3bd13b8940ca4e9a833bd3a187c9d42348fcc344
+Author: Your Name <your-email@example.com>
+Date:   Tue Sep 1 15:28:34 2026 -0400
+
+    Course template
