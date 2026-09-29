@@ -47,8 +47,8 @@ def main():
         sys.exit(0)
 
     multiple_files = len(files) > 1
-
     total_count = 0
+
     for filename in files:
         try:
             if filename == '-':
@@ -59,6 +59,7 @@ def main():
             sys.stderr.write(f"lgrep: {filename}: {e}\n")
             continue
 
+        file_count = 0
         offset = 0
         
         while True:
@@ -77,9 +78,9 @@ def main():
             if options['c']:
                 if options['v']:
                     if num_matches == 0:
-                        total_count += 1
+                        file_count += 1
                 else:
-                    total_count += num_matches
+                    file_count += num_matches
             else:
                 selected = False
                 if options['v']:
@@ -100,9 +101,22 @@ def main():
             offset += len(line_bytes)
         
         f.close()
+        
+        if options['c']:
+            if multiple_files:
+                total_count += file_count
+            else:
+                # If only one file, output the count for that file.
+                # The spec says: "When multiple files are used, output the sum of all matches."
+                # This implies if only one file is used, we don't necessarily output the sum (which is the same).
+                # But for consistency, we can just print the count.
+                sys.stdout.buffer.write(f"{file_count}\n".encode('utf-8'))
+                # We return to avoid printing the sum again.
+                return
 
-    if options['c']:
+    if options['c'] and multiple_files:
         sys.stdout.buffer.write(f"{total_count}\n".encode('utf-8'))
 
 if __name__ == "__main__":
     main()
+
