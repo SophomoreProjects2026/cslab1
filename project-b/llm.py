@@ -11,15 +11,19 @@ BASE_URL = "https://chatterbox.ee.cooper.edu/api/v1"
 MODEL = "nvidia/Gemma-4-26B-A4B-NVFP4"  # confirmed via /api/v1/models
 
 client = OpenAI(base_url=BASE_URL, api_key=os.environ["CHATTERBOX_KEY"])
-
+total_tokens: int = 0
 
 def chat(messages, temperature=0.7, **kw) -> str:
+    global total_tokens
     """Send a list of {"role": ..., "content": ...} dicts, get a string back."""
     r = client.chat.completions.create(
         model=MODEL, messages=messages, temperature=temperature, **kw
     )
+    total_tokens = r.usage.total_tokens
     return r.choices[0].message.content
 
+def get_total_tokens() -> int:
+    return total_tokens
 
 if __name__ == "__main__":
     print(chat([{"role": "user", "content": "Say hello in exactly four words."}]))

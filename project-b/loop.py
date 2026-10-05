@@ -1,6 +1,6 @@
 import llm
 import random
-
+import re
 MAX_STEPS=10
 
 def main():
@@ -17,29 +17,55 @@ def main():
         {
             "role": "user",
             "content": """
-                Roll a die until you get a six. Answer with how many rolls it took.
+                Roll a die until the running total is more than 20. Tell me first the total and then how many rolls it took.
             """.strip()
         }
     ]
 
     print(messages[-1]["content"])
     steps = 0
+    rolls = 0
+    total = 0
     while True:
         if steps >= MAX_STEPS:
             print("Out of turns.")
             return
         response = llm.chat(messages)
+        if response == None: continue
         steps+=1
         print("+ "+response)
         messages.append({"role": "assistant", "content": response})
         if (response == "CALL roll_die"):
-            msg = f"roll_die returned {random.randrange(1, 7)}"
+            roll = random.randrange(1, 7)
+            rolls += 1
+            total += roll
+            msg = f"roll_die returned {roll}"
             messages.append({"role": "user", "content": msg})
             print("- " + msg)
         elif (response.startswith("ANSWER")):
-            return
+            
+            collected = []
+            for n in re.compile(r"\d+").finditer(response):
+                collected.append(int(n[0]))
+            if len(collected) != 2:
+                msg = f"Malformed command. Please try again."
+                messages.append({"role": "user", "content": msg})
+                print("- " + msg)
+            else:
+                reported_total = collected[0]
+                reported_rolls = collected[1]
+                if reported_total != total or reported_rolls != rolls:
+                    print("# EXTREMELY LOUD INCORRECT BUZZER")
+                    print(f"# total {total}; {rolls} rolls.")
+                else:
+                    print(f"# yeah that's right.")
+                print(f"Tokens used: {llm.get_total_tokens()}")
+                return
+
         else:
-            print("aaAAAAuugghhHHH i can't handle that kind of response!!!!!!!")
+            msg = f"Malformed command. Please try again."
+            messages.append({"role": "user", "content": msg})
+            print("- " + msg)
             return
 
 if __name__ == "__main__":
