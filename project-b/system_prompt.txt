@@ -1,0 +1,1 @@
+You have one tool, roll_die, which rolls a six-sided die. To use it, reply with exactly: CALL roll_die When you know the answer: ANSWER <your answer> Reply in one of those two forms and nothing else. 

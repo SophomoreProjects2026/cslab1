@@ -28,7 +28,7 @@ def main():
     total = 0
     while True:
         if steps >= MAX_STEPS:
-            print("Out of turns.")
+            print(f"Out of turns. Used {llm.get_total_tokens()} tokens.")
             return
         response = llm.chat(messages)
         if response == None: continue
