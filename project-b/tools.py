@@ -6,7 +6,7 @@ def read_file(path):
         return (False, "Path may not go up a level.")
 
     try:
-        file = open(path)
+        file = open("workspace/"+path)
         return (True, file.read())
     except Exception as err:
         return (False, str(err))
@@ -19,7 +19,7 @@ def write_file(path, data):
         return (False, "Path may not go up a level.")
 
     try:
-        file = open(path, "w")
+        file = open("workspace/"+path, "w")
         file.write(data)
         return (True, None)
     except Exception as err:
@@ -32,7 +32,7 @@ def count_matching_lines(path, word):
         return (False, "Path may not go up a level.")
 
     try:
-        file = open(path)
+        file = open("workspace/"+path)
         count = [(word in line) for line in file.read().split("\n")].count(True)
         return (True, count)
     except Exception as err:
