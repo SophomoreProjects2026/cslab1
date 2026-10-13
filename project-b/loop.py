@@ -1,6 +1,8 @@
 import llm
 import random
 import re
+import json
+from tools import tools, parse_call
 MAX_STEPS=10
 
 def main():
@@ -35,38 +37,29 @@ def main():
         steps+=1
         print("+ "+response)
         messages.append({"role": "assistant", "content": response})
-        if (response == "CALL roll_die"):
-            roll = random.randrange(1, 7)
-            rolls += 1
-            total += roll
-            msg = f"roll_die returned {roll}"
-            messages.append({"role": "user", "content": msg})
-            print("- " + msg)
-        elif (response.startswith("ANSWER")):
-            
-            collected = []
-            for n in re.compile(r"\d+").finditer(response):
-                collected.append(int(n[0]))
-            if len(collected) != 2:
-                msg = f"Malformed command. Please try again."
-                messages.append({"role": "user", "content": msg})
-                print("- " + msg)
-            else:
-                reported_total = collected[0]
-                reported_rolls = collected[1]
-                if reported_total != total or reported_rolls != rolls:
-                    print("# EXTREMELY LOUD INCORRECT BUZZER")
-                    print(f"# total {total}; {rolls} rolls.")
-                else:
-                    print(f"# yeah that's right.")
-                print(f"Tokens used: {llm.get_total_tokens()}")
-                return
 
-        else:
-            msg = f"Malformed command. Please try again."
-            messages.append({"role": "user", "content": msg})
-            print("- " + msg)
-            return
+        tool_call = parse_call(response)
+        if isinstance(tool_call, str):
+            messages.append({"role": "user", "content": tool_call})
+            continue
+
+        tool_name, arguments = tool_call
+        
+        if tool_name not in tools:
+            messages.append({"role": "user", "content": "Requested tool does not exist. Please try again."})
+            continue
+        
+        tool = tools.get(tool_name)
+
+        (successful, detail) = tool(**arguments)
+
+        result = {"successful": successful, "result": detail} if successful else {"successful": successful, "error": detail}
+        messages.append(json.dumps(result))
+
+        if tool_name == "complete_job": # special tool that breaks the loop
+            break
+
+            
 
 if __name__ == "__main__":
     main()
