@@ -1,11 +1,12 @@
 
 import json
+import types
 
 # returns a string if an error occurred, else a tuple containing
 # the tool name and the args
 def parse_call(raw):
     try:
-        tool_call = json.loads()
+        tool_call = json.loads(raw)
     except:
         return "Malformed tool call. If you are finished, call complete_job."
 
@@ -65,10 +66,10 @@ def count_matching_lines(path, word):
     finally:
         file.close()
 
-def complete_job(message):
+def complete_job(message=""):
     return (True, message)
 
-tools: dict[str, function] = {
+tools: dict[str, types.FunctionType] = {
     "read_file": read_file,
     "write_file": write_file,
     "count_matching_lines": count_matching_lines,
