@@ -1,6 +1,9 @@
 
 import json
 import types
+from fastmcp import FastMCP
+
+mcp = FastMCP("NOVIN-SIMTH-AGENT")
 
 # returns a string if an error occurred, else a tuple containing
 # the tool name and the args
@@ -26,8 +29,8 @@ def parse_call(raw):
 
     return (tool_name, arguments)
     
-
-def read_file(path):
+@mcp.tool
+def read_file(path: str) -> tuple[bool, str]:
     if ".." in path:
         return (False, "Path may not go up a level.")
 
@@ -39,8 +42,8 @@ def read_file(path):
     finally:
         file.close()
 
-
-def write_file(path, data):
+@mcp.tool
+def write_file(path: str , data: str ) -> tuple[bool, str]:
     if ".." in path:
         return (False, "Path may not go up a level.")
 
@@ -53,7 +56,8 @@ def write_file(path, data):
     finally:
         file.close()
 
-def count_matching_lines(path, word):
+@mcp.tool
+def count_matching_lines(path: str , word: str ) -> tuple[bool, str]:
     if ".." in path:
         return (False, "Path may not go up a level.")
 
@@ -66,7 +70,8 @@ def count_matching_lines(path, word):
     finally:
         file.close()
 
-def complete_job(message=""):
+@mcp.tool
+def complete_job(message: str ="") -> tuple[bool, str]:
     return (True, message)
 
 tools: dict[str, types.FunctionType] = {
@@ -75,3 +80,10 @@ tools: dict[str, types.FunctionType] = {
     "count_matching_lines": count_matching_lines,
     "complete_job": complete_job,
 }
+
+
+
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
