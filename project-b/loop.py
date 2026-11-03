@@ -34,8 +34,6 @@ def main():
 
     # print(messages[-1]["content"])
     steps = 0
-    rolls = 0
-    total = 0
     while True:
         if steps >= MAX_STEPS:
             print(f"Out of turns. Used {llm.get_total_tokens()} tokens.")

@@ -51,4 +51,4 @@ def run_harness(junk_amt: int, junk_per_message_pair: int):
 if __name__ == "__main__":
     for i in range(5):
         print(f"RUN {i+1}")
-        run_harness(4000, 200)
+        run_harness(64000, 200)
