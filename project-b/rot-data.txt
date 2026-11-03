@@ -1,0 +1,36 @@
+200 tokens per message
+Gave a simple math problem with multiple steps
+spread throughout the context.
+
+~1,000 tokens of junk
+5 Correct
+0 Garbage Output
+0 Did Not Finish
+
+~4,000 tokens of junk
+4 Correct 
+(one of the runs started with the right answer and then
+    continued the junk pattern)
+1 Incorrect
+0 Garbage Output
+0 Did Not Finish
+
+~16,000 tokens of junk
+5 Correct
+0 Garbage Output
+0 Did Not Finish
+
+~32,000 tokens of junk
+5 Correct
+0 Garbage Output
+0 Did Not Finish
+
+~64,000 tokens of junk
+5 Correct
+0 Garbage Output
+0 Did Not Finish
+
+~100,000 tokens of junk
+5 Correct
+0 Garbage Output
+0 Did Not Finish
