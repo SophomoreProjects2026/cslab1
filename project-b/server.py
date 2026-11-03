@@ -9,7 +9,7 @@ def get_unclassified_file() -> tuple[str, str]:
 
     available_files = os.listdir("workspace/unsorted")
     if len(available_files) == 0:
-        raise RuntimeError("No more uncategorized files.")
+        raise RuntimeError("No more uncategorized files here. Continue elsewhere.")
     
     choice = random.randint(0, len(available_files)-1)
 
@@ -31,11 +31,9 @@ def classify(id: str , category: str ) -> None:
 @mcp.tool
 def get_categories() -> list[str]:
     """Get the list of available categories."""
-
     directories = os.listdir("workspace")
     directories.remove("unsorted")
     return directories
-    
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")
