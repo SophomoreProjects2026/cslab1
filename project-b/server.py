@@ -1,53 +1,41 @@
+import os
+import random
 from fastmcp import FastMCP
 mcp = FastMCP("NOVIN-SIMTH-AGENT")
 
 @mcp.tool
-def read_file(path: str) -> tuple[bool, str]:
-    """Read a file from a path within the workspace."""
-    
-    if ".." in path:
-        return (False, "Path may not go up a level.")
+def get_unclassified_file() -> tuple[str, str]:
+    """Get the id (file name) and contents of an unclassified file."""
 
-    try:
-        file = open("workspace/"+path)
-        return (True, file.read())
-    except Exception as err:
-        return (False, str(err))
-    finally:
-        file.close()
+    available_files = os.listdir("workspace/unsorted")
+    if len(available_files) == 0:
+        raise RuntimeError("No more uncategorized files.")
+    
+    choice = random.randint(0, len(available_files)-1)
+
+    file = open("workspace/unsorted/"+available_files[choice])
+    data = file.read()
+    file.close()
+    return (available_files[choice], data)
+    
 
 @mcp.tool
-def write_file(path: str , data: str ) -> tuple[bool, str]:
-    """Write a file to a path within the workspace."""
+def classify(id: str , category: str ) -> None:
+    """Classify a file by its id (file name)."""
     
-    if ".." in path:
-        return (False, "Path may not go up a level.")
+    if ".." in id or ".." in category:
+        raise ValueError("Path may not go up a level.")
 
-    try:
-        file = open("workspace/"+path, "w")
-        file.write(data)
-        return (True, None)
-    except Exception as err:
-        return (False, str(err))
-    finally:
-        file.close()
+    os.rename(f"workspace/unsorted/{id}", f"workspace/{category}/{id}")
 
 @mcp.tool
-def count_matching_lines(path: str , word: str ) -> tuple[bool, str]:
-    """Count the number of lines containing [word] in the specified file within the workspace."""
+def get_categories() -> list[str]:
+    """Get the list of available categories."""
+
+    directories = os.listdir("workspace")
+    directories.remove("unsorted")
+    return directories
     
-    if ".." in path:
-        return (False, "Path may not go up a level.")
-
-    try:
-        file = open("workspace/"+path)
-        count = [(word in line) for line in file.read().split("\n")].count(True)
-        return (True, count)
-    except Exception as err:
-        return (False, str(err))
-    finally:
-        file.close()
-
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")

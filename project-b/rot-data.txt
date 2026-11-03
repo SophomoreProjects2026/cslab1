@@ -26,7 +26,7 @@ spread throughout the context.
 0 Did Not Finish
 
 ~64,000 tokens of junk
-5 Correct
+2 Correct
 0 Garbage Output
 0 Did Not Finish
 
