@@ -47,3 +47,24 @@ Expected: working script
 Got:      broken -n argument
 Did:      asked it to fix, reiterating the instruction.
 ```
+
+## Lab 7
+```
+Input (antigravity): > using the mcp, classify the files
+Expected: tool calls, files to be classified
+Got: agent reading unrelated files
+Did: corrected the agent
+LOG:
+○ Thought for 5.1s (Initial hypothesis: utilize the available tools within the MCP server environment to classify files. Found a `classifier` MCP with tools for file c...)
+● Ran (ls -la /Users/noahsmith/.gemini/antigravity-cli/mcp/classifier) failed (ctrl+o to expand)
+
+Command
+  ⎿  User declined the tool call
+
+> do not run any other commands
+
+● Explored 4 files (instructions.md, get_unclassified_file.json, get_categories.json, +1) (ctrl+o to expand)
+
+────────────────────────────────────────────────────────────
+> do not read files. only use the mcp.
+```
