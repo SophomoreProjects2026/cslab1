@@ -10,6 +10,8 @@ client = Client(Path("server.py"))
 
 async def main():
     async with client:
+        print("Please enter a description of how these files should be classified:")
+        clarification = input()
         raw_tools = await client.list_tools()
         tools = {}
         for tool in raw_tools:
@@ -37,8 +39,8 @@ async def main():
             },
             {
                 "role": "user",
-                "content": """
-                    Classify the unsorted files.
+                "content": f"""
+                    Classify the unsorted files adhering to this clarification: {clarification}.
                 """.strip()
             }
         ]
