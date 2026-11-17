@@ -24,7 +24,13 @@ scorers = {
     ],
     "gtaiv": [
         # game name
-        (lambda chat: len(re.findall("gtaiv", chat))),
+        (lambda chat: len(re.findall("gta|grand theft auto", chat))),
+        # backup
+        (lambda chat: len(re.findall("backup", chat)) * 0.25),
+        # buzzing
+        (lambda chat: len(re.findall("buzzing", chat)) * 0.5),
+        # characters
+        (lambda chat: len(re.findall("niko|johnny|luis", chat)) * 0.75),
 
     ],
     "leagueoflegends": [
@@ -52,7 +58,7 @@ scorers = {
         (lambda chat: len(re.findall("parkour|redstone|min(e|ing)|craft(ing)?", chat)) * .33),
     ],
     "unclear": [
-        (lambda chat: 0.5),
+        (lambda chat: 1),
     ]
 }
 

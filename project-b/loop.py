@@ -66,6 +66,15 @@ async def main():
                     tool_result = await client.call_tool(tool_name, args)
                     print(json.dumps(tool_result.structured_content))
                     messages.append({"role": "user", "content": f"TOOL RESULT: {json.dumps(tool_result.structured_content)}"})
+                    
+                    # Compact memory on classify
+                    if tool_name == "classify":
+                        for i in range(len(messages)):
+                            message = messages[i]
+                            if message["role"] != "assistant": continue
+                            if message["content"].startswith("CALL get_unclassified_file"):
+                                messages[i+1]["content"] = "[Tool response redacted to save memory.]"
+                                
                 except Exception as e:
                     print(e)
                     messages.append({"role": "user", "content": f"INVALID TOOL CALL"})
