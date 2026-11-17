@@ -34,8 +34,9 @@ This is why we accept low non-zero scores as passing.
 
 FAILURES:
 The final case eval scored 0 despite a technically correct response because the category name wasn't exact.
-"jyn" was categorized as unclear, when its result should have been Fortnite.
+"jyn" was categorized as unclear, when its result should have been Fortnite. We accet this result as there is very little evidence of this category in the chat log.
 A few cases such as "iss" take a ridiculously long time to run (over 7 minutes).
 
 WHY THESE TWENTY:
 We made sure to use multiple cases for each category to ensure the model was consistent with its guesses. We also made sure to have a variety of games (sandbox, MOBA, FPS, etc.). No creator is repeated to ensure a variety of audiences with different personalities. We also have a mix of large and small creators to ensure a mix of slow/intimate chats and fast/chaotic chats.
+A couple are also misleading (like "jyn" and "syp") with content differing greatly from the declared category.

@@ -1,0 +1,4 @@
+The frontier model (Gemini 3.8 flash) performed well on the classifications, but there were some issues that needed resolving.
+Gemini tends to prefer reading files directly rather than using the MCP. We had to specify that it should only use the MCP, ad should not read files. Unfortunately, unlike our harness, long tool outputs are not output directly to the chat, nd are instead saved to files that the model can read. This caused Gemini to freak out and start a thinking spiral. A /btw allowing it to read tool call output files was needed to stop this.
+Additionally, Gemini model tends to think about its decisions for a lot longer than Gemma, and is more likely to categorize files into the "unclear" bin.
+Interestingly, the files Gemini sorted into "unclear" were often sorted correctly by Gemma. We are not sure why.
