@@ -120,7 +120,7 @@ if __name__ == "__main__":
     file.close()
     cases = json.loads(data)
     with ThreadPoolExecutor(max_workers=2) as pool: 
-        results = list(pool.map(run_case, [cases[6], cases[11], cases[15]])) 
+        results = list(pool.map(run_case, cases)) 
     print(results)
 
 
