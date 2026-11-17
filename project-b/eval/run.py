@@ -15,7 +15,10 @@ class FakeToolResopnse:
     def __init__(self, structured_content):
         self.structured_content = structured_content
 
+# this is based on main() in loop.py
 async def agent(fileId: str) -> str:
+    # the client doesn't like to work with threading,
+    # so we create a new one for each test.
     client = Client(Path("server.py"))
     async with client:
         raw_tools = await client.list_tools()
@@ -52,7 +55,7 @@ async def agent(fileId: str) -> str:
         ]
 
         steps = 0
-        # print("- "+messages[-2]["content"])
+
         while True:
             if steps >= MAX_STEPS:
                 print(f"Out of turns. Used {llm.get_total_tokens()} tokens.")
@@ -60,8 +63,7 @@ async def agent(fileId: str) -> str:
             response = llm.chat(messages)
             if response == None: continue
             steps+=1
-            # print("- "+messages[-1]["content"])
-            # print("+ "+response)
+
             messages.append({"role": "assistant", "content": response})
             
             if response.startswith("CALL"):
@@ -70,24 +72,26 @@ async def agent(fileId: str) -> str:
                     name_end = response.index(" ", len("CALL "))
                     tool_name = response[len("CALL "):name_end]
                     args = json.loads(response[name_end+1:].strip())
-                    # print("! "+tool_name)
+                    # we override tool calls here to respond with 
+                    # manufactured responses specific to this testing environment.
                     if tool_name == "get_unclassified_file":
+                        # normally this is random, but here we have a specific case to test.
                         file = open("eval/cases/"+fileId)
                         data = file.read()
                         file.close()
                         tool_result = FakeToolResopnse({"data": [fileId, data]})
                     elif tool_name == "classify":
+                        # this tool doesn't need to run. It just signals that this test is complete.
                         return args["category"] 
                     else:
                         tool_result = await client.call_tool(tool_name, args)
                     messages.append({"role": "user", "content": f"TOOL RESULT: {json.dumps(tool_result.structured_content)}"})
                 except Exception as e:
-                    print(e)
-                    messages.append({"role": "user", "content": f"INVALID TOOL CALL"})
+                    print("", e)
+                    messages.append({"role": "user", "content": f"ERROR IN TOOL CALL"})
             else:
                 return "ERROR"
             
-
 def run_case(case): 
     print("running", case["id"])
     reply = with_backoff(lambda case: asyncio.run(agent(case)), case["input"]) 

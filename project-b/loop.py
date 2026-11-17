@@ -10,8 +10,11 @@ client = Client(Path("server.py"))
 
 async def main():
     async with client:
+        # get clarification on how to sort the files
         print("Please enter a description of how these files should be classified:")
         clarification = input()
+
+        # prep tools for enumeration
         raw_tools = await client.list_tools()
         tools = {}
         for tool in raw_tools:
@@ -19,6 +22,8 @@ async def main():
                 "descripton": tool.description,
                 "input_schema": tool.input_schema
             }
+
+        # initial thread
         messages = [
             {
                 "role": "system",
@@ -44,16 +49,17 @@ async def main():
                 """.strip()
             }
         ]
+        print("- "+messages[-2]["content"])
 
         steps = 0
-        print("- "+messages[-2]["content"])
         while True:
             if steps >= MAX_STEPS:
                 print(f"Out of turns. Used {llm.get_total_tokens()} tokens.")
                 return
+            
             response = llm.chat(messages)
-            if response == None: continue
             steps+=1
+            if response == None: continue
             print("- "+messages[-1]["content"])
             print("+ "+response)
             messages.append({"role": "assistant", "content": response})
@@ -61,11 +67,12 @@ async def main():
             if response.startswith("CALL"):
                 # tool call
                 try:
-                    name_end = response.index(" ", len("CALL "))
-                    tool_name = response[len("CALL "):name_end]
-                    args = json.loads(response[name_end+1:].strip())
-                    print("! tool " + tool_name + " was called")
+
+                    name_end_index = response.index(" ", len("CALL "))
+                    tool_name = response[len("CALL "):name_end_index]
+                    args = json.loads(response[name_end_index+1:].strip())
                     tool_result = await client.call_tool(tool_name, args)
+                    print("! tool " + tool_name + " was called")
                     messages.append({"role": "user", "content": f"TOOL RESULT: {json.dumps(tool_result.structured_content)}"})
                     
                     # Compact memory on classify
@@ -77,8 +84,8 @@ async def main():
                                 messages[i+1]["content"] = "[Tool response redacted to save memory.]"
                                 
                 except Exception as e:
-                    print(e)
-                    messages.append({"role": "user", "content": f"INVALID TOOL CALL"})
+                    print("AN ERROR OCCURRED:", e)
+                    messages.append({"role": "user", "content": f"ERROR IN TOOL CALL"})
             else:
                 break # model is done
             

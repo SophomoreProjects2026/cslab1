@@ -37,6 +37,5 @@ def get_categories() -> list[str]:
     return directories
 
 
-
 if __name__ == "__main__":
     mcp.run(transport="stdio")
