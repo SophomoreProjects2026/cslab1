@@ -4,7 +4,7 @@ import json
 import asyncio
 from fastmcp import Client
 
-MAX_STEPS=10
+MAX_STEPS=50
 
 client = Client(Path("server.py"))
 
@@ -62,9 +62,8 @@ async def main():
                     name_end = response.index(" ", len("CALL "))
                     tool_name = response[len("CALL "):name_end]
                     args = json.loads(response[name_end+1:].strip())
-                    print("! "+tool_name)
+                    print("! tool " + tool_name + " was called")
                     tool_result = await client.call_tool(tool_name, args)
-                    print(json.dumps(tool_result.structured_content))
                     messages.append({"role": "user", "content": f"TOOL RESULT: {json.dumps(tool_result.structured_content)}"})
                     
                     # Compact memory on classify

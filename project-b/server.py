@@ -11,8 +11,8 @@ def get_unclassified_file() -> tuple[str, str]:
 
     available_files = os.listdir("workspace/unsorted")
     if len(available_files) == 0:
-        raise RuntimeError("No more uncategorized files here. Continue elsewhere.")
-    
+        return ["", "No more uncategorized files."]
+
     choice = random.randint(0, len(available_files)-1)
 
     file = open("workspace/unsorted/"+available_files[choice])

@@ -27,3 +27,12 @@ Notably, it responded with the "unclear" category when it could not discern a ca
 
 OUR SCORING FUNCTION
 The scoring function looks for certain terms related to the guessed category using regular expressions. It returns a higher value when the term is seen more frequently. Each term or set of terms is multiplied by a weight chosen by how strongly we feel a certain term indicates the specific game. Finally, this number is run through an exponential function to make sure it never exceeds 1.
+
+A weakness is that the frequency of the terms may vary wildly depending on the content of the stream and the type of audience, even if the ctegory is correct.
+This is why we accept low non-zero scores as passing.
+Even so, like the last case above, a guess can be correct and still score zero because of this.
+
+FAILURES:
+The final case eval scored 0 despite a correct response.
+"jyn" was categorized as unclear, when its result should have been Fortnite.
+A few cases such as "iss" take a ridiculously long time to run (over 7 minutes).
