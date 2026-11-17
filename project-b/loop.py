@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import asyncio
 from fastmcp import Client
+
 MAX_STEPS=10
 
 client = Client(Path("server.py"))

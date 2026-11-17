@@ -1,0 +1,1000 @@
+[0:32:58] jeremycantwinkforyou: pc will say "me dying help me pls" strrawClap
+[0:33:06] meanMestar: omE
+[0:33:08] robrman: my 13900k im pretty sure is damaged from that issue, i got it on release before we even knew the problem existed and it doesnt run the same ram clocks anymore as it used to so im pretty sure its degraded YEP
+[0:33:21] meanMestar: i dont think cpu race matters much nowadays
+[0:33:29] applecadough: U know about computer?
+[0:33:48] helleg_f: yeah do the update then Stare
+[0:33:53] iamwhatiam45: Gpuz graphics card Cpuz Cpu the stats
+[0:33:54] cutelmy: one of the things the bios update has to do is limit internal voltage at some components so in a way blocking overclocking
+[0:34:00] robrman: rma is return to intel, like for replacement
+[0:34:07] Terminus1961: Hi?
+[0:34:12] GhostlyCasual: rma means if it dies and is under warranty can return to it.
+[0:34:33] meanMestar: !pc
+[0:34:33] Nightbot: i7-13700F, 32GB, RTX 4070 12GB, Win 11
+[0:34:41] cutelmy: once you have a bluescreen it's already too damaged to fix
+[0:34:55] cutelmy: if the cause is that degrating issue
+[0:34:58] TheLinuxPleb: That's very odd if no blue screens on Windows.
+[0:35:05] applecadough: Scary
+[0:35:05] robrman: @meanMestar we're talking about the intel 13th gen degradation issue and the bios update she really needs to do
+[0:35:25] applecadough: Clean your computer
+[0:35:27] robrman: i can guide you through all of it if you want
+[0:35:28] meanMestar: yeah i forgot about that i didnt know people stilll buy intel cpus
+[0:35:33] applecadough: Dont do it
+[0:35:36] applecadough: kcatWow
+[0:35:39] ThatAsadThough: that now you cant break pc though
+[0:35:40] helleg_f: if you change something accidentally just don't save it Shruge
+[0:35:43] Murcielago_0: She always threats us with degrading of course she has a degrading cpu
+[0:36:06] robrman: intel extended the warranty by 2 years because of this problem
+[0:36:18] saren_n7: if you do end up upgrading bios whatever you do, do NOT press the self destruct button monka
+[0:36:19] meanMestar: it's a good time to update the bios then if it still works, it might never break
+[0:36:28] ThatAsadThough: that what are you on linux though?
+[0:36:32] applecadough: kittyc130Gaspp kittyc130Gaspp
+[0:36:34] meanMestar: i know a few people who had to send their intel back
+[0:36:34] TheLinuxPleb: @robrman Yeah that should be mandatory for those gen CPU's.
+[0:36:40] rarestep: @saren_n7 databaseMhm
+[0:36:41] applecadough: Dont mess bios
+[0:36:47] helleg_f: don't panic aaaaaaaaa AAAA
+[0:37:13] Murcielago_0: 1tb minimum strrawNerd
+[0:37:16] applecadough: Stick 2
+[0:37:24] helleg_f: 400 tb just to be safe Waiting
+[0:37:26] TheLinuxPleb: Had one streamer whos Intel CPU basically died and it was because of the problems on that gen.
+[0:37:30] Terminus1961: what motherboard is in your pc?
+[0:37:33] cutelmy: bios update is smol
+[0:37:39] robrman: bios is not even scary its fine
+[0:38:02] meanMestar: ask your mother
+[0:38:13] Murcielago_0: She’s clearly waiting for it to crash mid stream. Clipfarming pro strrawFreaky
+[0:38:14] robrman: and yea bios updates are like a few mb
+[0:38:25] iamwhatiam45: Gpu-z Graphics Cpu-z Cpu
+[0:38:26] applecadough: Did you preorder ootr?
+[0:38:27] robrman: in msinfo you can see the system modem/baseboard product
+[0:38:33] meanMestar: many bioses now have online update too  you just go to bios and do it there
+[0:38:54] ThatAsadThough: that is it an nvme though?
+[0:38:55] robrman: in settings click on system, mine shows it at the top under my pc name
+[0:39:01] robrman: dunno if thats standard or not
+[0:39:37] robrman: prob z790 z690, b760, h770, something like that and asus, msi, gigabyte, etc
+[0:39:56] cutelmy: microslopinfo
+[0:39:59] cutelmy: strrawGlorpcute
+[0:40:16] Terminus1961: Press the Windows key, type system information, and open the app. Look for BIOS Version/Date in the System Summary
+[0:40:29] TheLinuxPleb: You just need your motherboard BIOS.
+[0:40:46] meanMestar: yeah in the system info it's called "baseboard"
+[0:41:01] cutelmy: means your board is based
+[0:41:21] helleg_f: are you in the bios right now Looking
+[0:41:29] TheLinuxPleb: It's from the site of the manufacturer.
+[0:41:33] robrman: press windows key+R then type in msinfo and hit enter
+[0:41:34] meanMestar: open start menu and type system information
+[0:41:38] Murcielago_0: @cutelmy Lmao
+[0:41:44] Terminus1961: it's not an app... it will open in the window
+[0:42:03] meanMestar: ??????
+[0:42:06] helleg_f: plink
+[0:42:11] meanMestar: gave you literal instructions twice which you didnt follow
+[0:42:13] cutelmy: maybe bunny is using linux strrawGlorpcute
+[0:42:18] Murcielago_0: Where are the better mods smh
+[0:42:23] helleg_f: BlameChat
+[0:42:37] iamwhatiam45: dont let her hack her computer
+[0:42:41] robrman: wtf version of windows are you on
+[0:42:47] cutelmy: 11
+[0:42:51] rarestep: Thinkge
+[0:42:56] vinniedahitman: HahaReindeer
+[0:42:57] meanMestar: how hard is it to press windows key and type system information
+[0:42:59] robrman: OH NO i fucked up sorry
+[0:42:59] Murcielago_0: Windows withholding info what a bastard
+[0:43:00] robrman: msinfo32
+[0:43:03] Randyio: 3.11
+[0:43:13] saren_n7: FLASHBANG
+[0:43:13] meanMestar: FLASHBANG
+[0:43:15] helleg_f: FLASHBANG
+[0:43:19] cutelmy: type -rm sytem32
+[0:43:28] arlissonn_: strrawBinoculus
+[0:43:29] robrman: "baseboard manufacturer" and "Baseboard product"
+[0:43:32] helleg_f: format C: mhm
+[0:43:36] Murcielago_0: Rainbow that was dope
+[0:43:56] robrman: do you see like z790 z690 or something like that
+[0:43:58] rarestep: instruction unclear: self destruct sequence activated strrawPray
+[0:44:00] meanMestar: yeah thats why windows is shit in not-english
+[0:44:02] robrman: letter followed by 3 numbers
+[0:44:09] meanMestar: biosisijzjica versiosiazniinisne
+[0:44:18] Murcielago_0: Lmaoo
+[0:44:21] cutelmy: płyta główna or płyty główne
+[0:44:44] robrman: mainboard yes
+[0:44:46] TheLinuxPleb: If her dad would have made her Linux compatible we would already be done with this. :P
+[0:44:51] robrman: and the line right below that?
+[0:44:54] meanMestar: whats the "mainboard product"
+[0:45:01] iamwhatiam45: copy that info
+[0:45:02] Murcielago_0: @TheLinuxPleb Of course you’d say that lol
+[0:45:09] meanMestar: b760 ds3h8x
+[0:45:09] Ju5tScott: Hi boooni did you sleep well?
+[0:45:10] meanMestar: ?
+[0:45:15] robrman: gigabyte b760 ds3h-ax
+[0:45:24] Ju5tScott: why noy
+[0:45:30] cutelmy: @robrman is that Elon Musk's child?
+[0:45:33] cutelmy: strrawEhampter
+[0:45:36] ThatAsadThough: that wow booni can read though
+[0:45:46] rarestep: @cutelmy databaseLOL
+[0:45:48] Murcielago_0: Ddr4 is peak dw
+[0:45:53] meanMestar: mainboardchurian candidate
+[0:45:53] iamwhatiam45: read before anything
+[0:45:54] ThatAsadThough: celinCLAP
+[0:46:06] saren_n7: yes, I'm in HACKERMANS
+[0:46:11] helleg_f: already knew everything HACKERMANS
+[0:46:11] robrman: its fine boards dont matter that much for 99% of people
+[0:46:14] meanMestar: omE
+[0:46:18] robrman: new bios for that board is from september 28th 2026
+[0:46:21] Ju5tScott: mestar is hacking you as we speak
+[0:46:29] xara: 178 raiders from xara have joined! 
+[0:46:30] meanMestar: my bios is older on this pc
+[0:46:30] 21xSat: xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk
+[0:46:31] glsabre: xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk
+[0:46:33] Yolkomodo: xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk ZAZA RAID xaxDonk
+[0:46:38] lopsided_soliloquy: Wowowoowowowowoowowowowo
+[0:46:38] Murcielago_0: Woah
+[0:46:39] cutelmy: zaza
+[0:46:41] xara: ko ham cie
+[0:46:41] meanMestar: !shoutout xara
+[0:46:42] Nightbot: Follow xara over at https://www.twitch.tv/xara! They were last playing Just Chatting.
+[0:46:44] aauuaa9: hello
+[0:46:45] Randyio: MMEOWDY raiders
+[0:46:49] xara: hope u been having fun with your gta runs
+[0:46:51] glsabre: hi hi strrawLove strrawLove strrawLove strrawLove strrawLove
+[0:46:55] Ju5tScott: Hi waiders MUAH crepeKiss
+[0:46:56] meanMestar: im a raider from xara omE
+[0:47:04] lopsided_soliloquy: Zazas soldiers of fortune, reporting for duty
+[0:47:17] Terminus1961: there were 12 bios updates since sept 2023
+[0:47:18] xara: @meanMestar mhm
+[0:47:19] arlissonn_: @xara strrawFreaky strrawFreaky strrawFreaky
+[0:47:28] xara: playing zelda remake
+[0:47:33] ThatAsadThough: that @xara in chat lets go though
+[0:47:39] glsabre: zelda speed run
+[0:47:47] Yolkomodo: I love Poland!
+[0:47:53] xara: iz sooo good ui will love it
+[0:47:59] cutelmy: No bunny mean Portland
+[0:48:00] xara: so cozy
+[0:48:01] lopsided_soliloquy: Dzien dobry
+[0:48:02] cutelmy: not Poland
+[0:48:04] Murcielago_0: I bet xara didn’t forget to update bios strrawCatgun
+[0:48:11] meanMestar: dada raid
+[0:48:30] meanMestar: my bios is from july 2020
+[0:48:31] Randyio: xara also changes oil on her car
+[0:48:42] rarestep: @Randyio Chadge
+[0:48:42] xara: am i supposed to update bios O_O
+[0:48:44] Murcielago_0: And blinker fluids too what a goat
+[0:48:59] xara: i didnt even know that was a thing
+[0:49:02] xara: o_o
+[0:49:05] cutelmy: what is bios?
+[0:49:06] robrman: short version: sometimes the cpu can spike to higher voltage than is safe for it to do, and it can damage it partially over time, or kill it completely if that happens
+[0:49:08] cutelmy: like biology?
+[0:49:09] lopsided_soliloquy: Please forgive xara, she is new to technologising
+[0:49:09] xara: @Randyio LOL
+[0:49:12] GhostlyCasual: for intel 13th and 14th gen older bios should update, otherwise no real reason unless anticheat requires.
+[0:49:27] ThatAsadThough: that booni overclock stream when though?
+[0:49:37] Ju5tScott: Ju5tScott watched 10 consecutive streams and sparked a watch streak! yay
+[0:49:39] helleg_f: the bios is more scared of you than you are of it er
+[0:49:46] meanMestar: this pc is from 2017 its now my media pc
+[0:50:02] ThatAsadThough: that @xara can do anything @strrawbunnyy can only better though
+[0:50:06] robrman: i can help if you need it
+[0:50:06] Terminus1961: do you have a usb thumb drive?
+[0:50:09] cutelmy: I think even sys admin changes their car oil more than update bios manually
+[0:50:12] lopsided_soliloquy: !push
+[0:50:14] Yolkomodo: I have when new games require you to mess around in the BIOS but sometimes you have to do it xaxClow
+[0:50:17] Randyio: NOTED more yelling
+[0:50:21] robrman: i helped like 10 of my friends to update bios and theyre not technical people so
+[0:50:44] saren_n7: eeh bios updates are kinda like doing taxes, you're supposed to but no one actually does it Shruge
+[0:50:46] Ju5tScott: Noted boooni likes to be bullied
+[0:50:48] TheLinuxPleb: Anti cheats are a cancer.
+[0:50:56] iamwhatiam45: its on gigabyte web site goto support and read
+[0:51:10] cutelmy: it's pretty straightforward once the instalation starts
+[0:51:22] Terminus1961: magic downlodaing shit is usually for viruses
+[0:51:31] ThatAsadThough: that no thumb drive how do you transfer stuff though?
+[0:51:34] NobleWolf: datashWave
+[0:51:51] cutelmy: there is a full automatic installer for bios but it doesn't work for all windows/bios/motherboard versions
+[0:51:56] Murcielago_0: She got cheats stored up on her pc strrawSnack
+[0:52:12] Yolkomodo: You are listening to an old Mexican band, it sounds like
+[0:52:19] meanMestar: on asus you dont need a thumb drive, you can just load the bios file from your C drive
+[0:52:20] Yolkomodo: I can't rly hear tho
+[0:52:36] Ju5tScott: why didn't you sleep well Sadge
+[0:52:37] meanMestar: idk about gigabyte mhm
+[0:52:37] iamwhatiam45: smart girl
+[0:52:39] helleg_f: doing stuff is hard NODDERS
+[0:52:47] Terminus1961: you may try gigabyte control centre
+[0:52:49] rarestep: @helleg_f databaseMhm
+[0:52:52] Randyio: im allergic to doing stuff
+[0:53:06] robrman: @meanMestar ive had a gigabyte board that did i think and some asus ones but that feature also seems gone in more recent boards so idk LUL
+[0:53:15] meanMestar: its literally impossible to do it wrong becasue you start the update, it checks if its compatible and then you just wait
+[0:53:23] rarestep: databaseLOL
+[0:53:24] BavarianTart: cheat us out of a 12 hr stream
+[0:53:31] Ju5tScott: sure you haven't Stare
+[0:53:34] helleg_f: same I only use cheat codes IRL
+[0:53:44] meanMestar: @robrman euh  i have b650e-f mhm
+[0:53:45] Randyio: @BavarianTart mhm
+[0:53:47] GhostlyCasual: just make sure power is stable when you do it, it's really easy you just start and wait and it's done.
+[0:53:51] cutelmy: you can do it wrong, you can start bios update and unplug the pc cable in the middle of it strrawGlorpcute
+[0:54:17] robrman: theres also a qflash button on the board even if she somehow blew it up so
+[0:54:43] meanMestar: yeah you can update it with just a usb stick without turning pc on
+[0:54:46] robrman: yea just dont do it in the middle of a thunderstorm
+[0:54:55] cutelmy: ask vol if the chinese are planning on attacking polish power system soon
+[0:55:09] meanMestar: it's probably bricked and then you have to do the qflash thing
+[0:55:20] helleg_f: don't let the cats step on the power button er
+[0:55:36] Terminus1961: check if your pc have installed gigabyte control centre... it's easy with it
+[0:55:37] GhostlyCasual: qflash is easy way to update bios.
+[0:56:07] Murcielago_0: I’ll put my attack on your power grid on hold I got you strrawPray
+[0:56:07] meanMestar: a few years ago manufacturers added a functionality to update BIOS evne if you dont have a CPU, you just plug a USB in and press a button
+[0:56:10] cutelmy: it's like when you instal operating system from zero, you either put cd in or flash drive
+[0:56:13] robrman: qflash is just the tool for gigabyte, qflash plus or w/e is the usb thing in the back
+[0:56:47] robrman: @meanMestar yea it became a huge problem when amd was selling new cpus that werent compatible on the same chipset and some shops were charging way too much to update it
+[0:57:03] helleg_f: she can't control her fans uuh
+[0:57:14] Terminus1961: there should be update section
+[0:57:17] helleg_f: is that roobin Binoculars
+[0:57:22] robrman: yea dont change those
+[0:57:37] GhostlyCasual: you can do more intresting stuff than those from Bios if you want to :3 .
+[0:57:42] meanMestar: @robrman yeah, i went to a local pc shop and bought the cheapest APU for 50 euro just to update the bios and then sold it back to the guy  for 25, he had "sold" that cpu like 30 times
+[0:57:43] robrman: overclocking randomly mid stream elisClassic
+[0:57:51] Terminus1961: look for update section
+[0:57:53] meanMestar: pennymRave
+[0:58:05] Randyio: [Tim And Eric Mind Blown GIF by Adult Swim]
+[0:58:10] cutelmy: don't overclock your cpu arnoldHalt that's how you actually increase the chance of degrading to happen
+[0:58:10] helleg_f: omg the settings actually do things
+[0:58:11] Murcielago_0: Lmaoo better late than never
+[0:58:18] iamwhatiam45: do you even update drivers
+[0:58:19] Terminus1961: home - update section
+[0:58:37] meanMestar: i updated my bios and now i cant turn the RGB off on my ram
+[0:58:52] meanMestar: i just have a rainbow wave effect that i cant turn off
+[0:58:53] Ju5tScott: Deletes critical system files in 3...2...
+[0:59:07] robrman: yes do it off stream LUL it needs a reboot
+[0:59:13] robrman: but on the left side of gigabyte control center you might have an icon with two arrows in a circle, thats the updates
+[0:59:37] cutelmy: you can't update drivers or bios without restarting obs
+[0:59:52] meanMestar: monka
+[0:59:56] Terminus1961: can I post a link to the youtube vid?
+[1:00:06] helleg_f: what have you don't ALERT aaaaaaaaa
+[1:00:11] helleg_f: *done
+[1:00:20] Murcielago_0: What could you have possibly pressed
+[1:00:29] Terminus1961: add
+[1:00:29] saren_n7: was it the self destruct button? monka
+[1:00:56] GhostlyCasual: around 1000 rpm or so idle shouldn't sound bad.
+[1:00:59] Murcielago_0: Sarens warning went out the other ear
+[1:01:00] Terminus1961: I has no discord NotLikeThis
+[1:01:16] helleg_f: computer exploding in 3 2 1 ALERT
+[1:01:23] cutelmy: Sam Altman detected a power surge from boon's pc and now he's flying to Poland strrawEhampter
+[1:01:27] meanMestar: just chatting streamer omE
+[1:01:29] robrman: i tried to send you a screenshot eavXdd ill put it in discord pics channel for where that is for me in control center and you can check it later
+[1:01:30] Randyio: YAPPING
+[1:01:31] helleg_f: 1h YAPPP
+[1:02:01] robrman: you might idk but just bug me i can help if u nee dit
+[1:02:03] Murcielago_0: @cutelmy Quick!! Hide the ram joeyna3Screamlevi
+[1:02:20] Terminus1961: posted in the discord chat... starts with 2:21
+[1:02:50] Murcielago_0: Having to put a stick into a pc to do an update is bullshit tho fr
+[1:03:04] meanMestar: i love the AI translation on asus motherboard support, "knowledge" translates to "feeling"
+[1:03:06] meanMestar: in finnish
+[1:03:17] BavarianTart: strrawLicka
+[1:03:38] Terminus1961: this motherboard should update without the stick with gigabyte control center
+[1:03:59] Ju5tScott: booni at your age it's critical to get good sleep NODDERS
+[1:04:05] robrman: ive never used that specific utility, but that is a thing yes
+[1:04:15] Ju5tScott: yes
+[1:04:24] robrman: thats how companies deploy bios updates to all of their pcs basically so SeemsGood
+[1:04:26] Murcielago_0: Sleep on the floor don’t interrupt the cats
+[1:04:53] Artie342: rdr3 in the works oooo
+[1:05:00] Ju5tScott: I thought we finished this yesterday?
+[1:05:07] yaix_03: @helleg_f @BavarianTart @robrman @meanMestar @Murcielago_0 @GhostlyCasual @Ju5tScott rummykHi moka47Heartray
+[1:05:12] meanMestar: yaix_03 HAIII
+[1:05:16] robrman: @yaix_03 yoonahkornFlower
+[1:05:27] Ju5tScott: @yaix_03 bnovaWave crepeWave
+[1:05:29] Murcielago_0: @yaix_03 Yahoo
+[1:05:32] Artie342: I got this in ur stream like a week ago worryStick
+[1:05:32] BavarianTart: @yaix_03 strrawHihello
+[1:05:44] Ju5tScott: you just hit Santa Sadge
+[1:05:48] yaix_03: @Artie342 rummykHi
+[1:05:54] helleg_f: @yaix_03 HAIII
+[1:05:56] saren_n7: WHAT
+[1:06:01] saren_n7: for real??
+[1:06:04] Artie342: @yaix_03 HenloThere strrawFreaky
+[1:06:21] Artie342: I’ve been using it the whole time u just ignore ur lead mod strrawSadcat
+[1:06:27] Murcielago_0: But Santa clearly told me to sit in his lap when i was young strrawSnack
+[1:06:36] robrman: thats the badge artie is using
+[1:06:39] saren_n7: then who the hell is that guy who's lap I sit on at the mall every year??
+[1:06:47] meanMestar: Sway
+[1:06:58] Randyio: ThatsAServe
+[1:07:05] arlissonn_: strrawKittyjam suzooiTwerkright suzooiTwerkleft
+[1:07:12] Murcielago_0: @saren_n7 You sat on the same guy too strrawFlushed
+[1:07:14] Ju5tScott: ThatsAServe SEXO ThatsAServe SEXO
+[1:07:21] yaix_03: @arlissonn_ rummykHi
+[1:07:25] saren_n7: @Murcielago_0 who is this freak...
+[1:07:38] helleg_f: Sway
+[1:07:43] saren_n7: wuh
+[1:08:21] Murcielago_0: Santa don’t discriminate strrawFreaky
+[1:08:24] Artie342: how else is he gonna know what to get u BRUHMM
+[1:08:27] Ju5tScott: suuuh girl
+[1:08:33] saren_n7: well not anymore, he's apparently not real so probably just some pervert Shruge
+[1:09:07] Ju5tScott: oh I'll dm you a list
+[1:09:10] meanMestar: Sway
+[1:09:15] Artie342: [Dance Cat GIF by Respective]
+[1:09:25] psdadepressao: strrawSideye
+[1:09:39] Murcielago_0: Oh no
+[1:09:48] robrman: eavPause
+[1:09:49] arlissonn_: @yaix_03 strrawSnack strrawNom
+[1:09:57] arlissonn_: adaholOhyeah adaholOhyeah adaholOhyeah adaholOhyeah adaholOhyeah adaholOhyeah  ohhhhhhhh
+[1:09:58] IsaakSirko: oh my god. what is this
+[1:10:00] Terminus1961: Kappa
+[1:10:04] robrman: good job boon
+[1:10:11] Murcielago_0: First 5 minutes
+[1:10:32] IsaakSirko: in SA and VC you regained health when you had sex
+[1:10:39] meanMestar: oh thse songs are actual artists
+[1:10:42] arlissonn_: 3 seconds—the guy’s a machine.
+[1:10:45] meanMestar: i thought this is part of the soundtrack
+[1:10:54] IsaakSirko: @arlissonn_ that's the double than me
+[1:10:57] Randyio: [Merry Christmas Dancing GIF by The Tonight Show Starring Jimmy Fallon]
+[1:11:00] Murcielago_0: How do you not know Song song song song song song mestar
+[1:11:05] meanMestar: AAAA
+[1:11:10] saren_n7: INSANECAT
+[1:11:14] arlissonn_: strrawKittyjam
+[1:11:20] meanMestar: it's chemical brothers and crookers at least
+[1:11:49] Terminus1961: my fav radio from gta 4is The Journey... I keep playing it from time to time when I'm driving
+[1:11:56] saren_n7: Sway
+[1:12:00] meanMestar: Sway
+[1:12:35] IsaakSirko: maybe you have to wait until 10pm. are oyu coming back
+[1:12:44] Murcielago_0: The shift was just segs with the woman
+[1:12:53] Ju5tScott: you could always go throw some pipe bombs LUL
+[1:13:39] IsaakSirko: gta 4 driving feels like a boat on ice
+[1:13:55] Azelio: sup booni
+[1:14:01] Azelio: how you doing
+[1:14:04] Azelio: how it going
+[1:14:25] Azelio: ah
+[1:14:35] IsaakSirko: bios is more dangerous than a revengeful ex
+[1:14:48] helleg_f: chat why did you make boon waste 1h on bios stuff ? BlameChat
+[1:14:50] robrman: boons bios bonanza mhm
+[1:15:44] Murcielago_0: I just love talking about bios heh strrawNerd
+[1:15:52] meanMestar: +2
+[1:16:15] meanMestar: monka
+[1:16:20] meanMestar: limmySweat
+[1:16:22] helleg_f: catSigh will people stop unaliving themselves because of Luis
+[1:17:36] Ju5tScott: well it gets blown up by a grenade before you can fly it
+[1:19:29] Murcielago_0: Dopeee
+[1:19:35] judgementRyu: LUL
+[1:19:47] meanMestar: how
+[1:19:50] saren_n7: a new trick, you haven't shown us this one before oooo
+[1:20:00] Randyio: Boon its a 4 wheeler, not 2
+[1:20:02] judgementRyu: Classic
+[1:20:04] helleg_f: Rollgers
+[1:20:05] Murcielago_0: Stop causing traffic joeyna3Screamlevi
+[1:20:12] Ju5tScott: tbf she was tied up in a trunk
+[1:20:15] meanMestar: peepoUpsideDown
+[1:20:25] ThatAsadThough: that booni > some tech bro though
+[1:20:54] itzbugatti_: Hi boongi
+[1:21:24] Murcielago_0: I just realised you kept chat up this time you’re so locked
+[1:21:26] itzbugatti_: How’s u?
+[1:21:36] Ju5tScott: I like your sweater it looks soft and cozy
+[1:22:19] Murcielago_0: I liked the Freddie boonger fit more strrawNerd
+[1:22:31] IsaakSirko: @Ju5tScott sweater? that is a shirt
+[1:23:00] Ju5tScott: @IsaakSirko whatever it is
+[1:23:13] IsaakSirko: fuck this mission. it took me half an hour to complete this shit
+[1:23:22] Murcielago_0: It was a good fit wdym
+[1:23:22] HighRadiationZone: FREDDY BUNGER !? WHERE
+[1:23:23] ThatAsadThough: that who said we dont like freddy or waldo though?
+[1:23:23] Randyio: we bully you anyhow, no matter what you wear
+[1:23:26] BavarianTart: its just streamer interaction im sure
+[1:23:54] saren_n7: it's not our fault if we bully you, chat reflects the streamer... Stare
+[1:23:59] HighRadiationZone: you know when we call you freddy bunger we just hope that you visit us in our dreams, it's a compliment Chadge
+[1:24:02] Ju5tScott: I do recall your birthday outfit was a hit Hubba hubba
+[1:25:55] phoenix0801_12: What’s she playing ?
+[1:26:06] HighRadiationZone: ballad of gay tony dlc for gta 4
+[1:26:13] Ju5tScott: gta4 dlc
+[1:26:18] phoenix0801_12: Thanks
+[1:26:46] Murcielago_0: He’s a sneaky bugger where is he
+[1:26:49] saren_n7: pepeMeltdown quick, he's getting away!
+[1:27:29] Murcielago_0: She doesn’t know he was above her smh
+[1:27:48] HighRadiationZone: he was unda the wata pretty sure
+[1:28:13] helleg_f: you don't like Waldo ? angy
+[1:28:45] IsaakSirko: if you are using a controller i think you could see him using b (circle on ps2)
+[1:29:17] glsabre: @saren_n7 thats rich
+[1:29:37] HighRadiationZone: she'd probs press triangle by accident
+[1:29:39] HighRadiationZone: KEKW
+[1:30:06] Ju5tScott: booni has "art" in her drawer
+[1:30:08] Ju5tScott: LUL
+[1:30:57] Murcielago_0: You should know the map layout by heart fake gamer strrawCatgun
+[1:31:05] HighRadiationZone: her art is on the floor actually gnomed
+[1:31:06] Ju5tScott: mhm
+[1:31:18] HighRadiationZone: kind of a pity they're not up the wall tbh
+[1:31:47] glsabre: gg
+[1:31:53] glsabre: gratz on finishing the mission!
+[1:32:06] glsabre: pspsps
+[1:32:09] phoenix0801_12: Thanks so far I’ve enjoyed myself and you play well
+[1:32:11] glsabre: maya
+[1:32:13] HighRadiationZone: she's cosplaying waldo rn akshually
+[1:32:22] Murcielago_0: She heard you complaining about your sleep and is sad strrawSadcat
+[1:32:52] HighRadiationZone: maybe she's in her sisters room because you're gaming so loud Chadge
+[1:33:47] glsabre: comprende means understand
+[1:34:08] helleg_f: maya is waiting for you to go to sleep so she can wake you again mhm
+[1:34:10] HighRadiationZone: it's the gas leak mhm
+[1:34:17] glsabre: comprendé
+[1:34:24] Ju5tScott: she probably smelled the bios burning NODDERS
+[1:34:50] helleg_f: nice landing as usual mhm
+[1:34:55] Murcielago_0: That helicopter made of titanium wth
+[1:35:05] NeverNu: that was sick
+[1:35:44] IsaakSirko: polish money
+[1:36:04] meanMestar: omE
+[1:36:12] Murcielago_0: Omg the SA fit
+[1:36:13] BavarianTart: LUL
+[1:36:14] Murcielago_0: ????
+[1:36:20] helleg_f: fashion diapers mhm
+[1:36:25] Ju5tScott: wow screen shot for later Sadge
+[1:36:27] Randyio: tighty whities
+[1:36:27] HighRadiationZone: oh someone found CJ's under garment Chadge
+[1:36:30] Murcielago_0: ??????
+[1:36:38] kickinwing0: MMEOWDY hey chat
+[1:36:48] Ju5tScott: correction screenshots for later
+[1:36:55] HighRadiationZone: stop looking at his junk BUNGY Susge
+[1:37:03] IsaakSirko: i can hear the screenshots lol
+[1:37:08] Ju5tScott: @kickinwing0 bnovaWave crepeKiss
+[1:37:08] meanMestar: ratatatatata
+[1:37:10] Randyio: catKiss @kickinwing0
+[1:37:11] HighRadiationZone: straight into her boon folder
+[1:37:23] Murcielago_0: How many passes does he have strrawO
+[1:37:37] helleg_f: KEK
+[1:37:42] kickinwing0: @Ju5tScott divvityKiss
+[1:37:47] kickinwing0: @Randyio catKiss
+[1:37:54] Murcielago_0: Baba arrived strrawFlushed
+[1:37:56] helleg_f: Mr Lewis mhm
+[1:38:09] robrman: eavMonka baba what are you doing here
+[1:38:22] helleg_f: strrawSadcat
+[1:38:30] kickinwing0: strrawSadcat papa
+[1:38:37] helleg_f: Gaspge
+[1:38:50] robrman: my son is a hmar anitaHands
+[1:38:52] glsabre: i wanna read a book called guns, drugs hookers and no pants
+[1:38:55] Murcielago_0: Lmaoooo
+[1:39:24] Ju5tScott: put ya pants on
+[1:39:35] robrman: yalla get out of my house jahesh
+[1:40:04] Ju5tScott: suuuuure
+[1:40:26] robrman: it means jackass
+[1:40:37] JewelQueen82: JewelQueen82 watched 105 consecutive streams and sparked a watch streak! 
+[1:40:55] meanMestar: lets go
+[1:40:58] robrman: yalla is like faster/hurry
+[1:41:04] glsabre: y'allah means for god
+[1:41:12] JewelQueen82: hi Booni! strrawHihello
+[1:41:13] KidLudens: buni puppyRoll puppyRoll puppyRoll puppyRoll
+[1:41:21] glsabre: i mean its used a few different way
+[1:41:22] helleg_f: using the n word like it means bro or something er
+[1:41:31] KidLudens: gambipFrog frog
+[1:41:32] Murcielago_0: Yallah yallah no glizzies
+[1:41:36] robrman: yalla jus tmeans lets go, hurry, faster, etc
+[1:41:56] Ju5tScott: boooni did you do more clay things?
+[1:42:04] robrman: but also the lebanese guys say yalla bye at the end of a call too as like "ok bye"
+[1:42:20] roshpatoits: im 0.00001% so im allowed to use it mhm
+[1:42:26] Ju5tScott: dos Gatos
+[1:42:34] roshpatoits: % black*
+[1:42:49] KidLudens: puppyWahoo free chopper puppyCopter
+[1:42:55] kickinwing0: @roshpatoits ok lets hear it waitingg
+[1:43:12] HighRadiationZone: I'm pretty sure i saw the apostrophe so it said y'allah so ya allah which means something more closer to oh god
+[1:43:18] roshpatoits: nagger
+[1:43:20] meanMestar: kickinwing0 yolla yo
+[1:43:27] kickinwing0: @meanMestar yo
+[1:44:13] KidLudens: puppySniper1 puppySniper2
+[1:44:20] meanMestar: sniperbert
+[1:44:21] helleg_f: PepegaAim
+[1:44:26] saren_n7: EmotionalCat she can't
+[1:44:35] Murcielago_0: Awp pro
+[1:44:41] glsabre: @roshpatoits wow
+[1:44:54] KidLudens: duderCool
+[1:44:54] helleg_f: monka
+[1:45:01] glsabre: SirPrise SirSword SirPrise SirSword SirPrise SirSword
+[1:45:03] meanMestar: omE
+[1:45:06] helleg_f: ICANT
+[1:45:14] kickinwing0: ICANT
+[1:45:16] KidLudens: feeshiWait
+[1:45:24] Murcielago_0: That was smooth ngl
+[1:45:46] vic__boss: strrawHihello
+[1:46:17] robrman: @HighRadiationZone ya allah would be oh god basically, but i thought i heard him say yalla
+[1:46:19] robrman: yes arabic
+[1:46:30] kickinwing0: rabbit mhm
+[1:46:35] robrman: its also possible they mis-subtitled it
+[1:46:38] Murcielago_0: @robrman Yuh
+[1:46:39] HighRadiationZone: @robrman there was an apostrophe pretty sure
+[1:46:55] glsabre: @robrman its pretty much the same thing just one is like a conjuction/slang
+[1:46:57] KidLudens: joyailSteer
+[1:47:09] NeverNu: Cybertruck before the cybertruck
+[1:47:11] glsabre: ooh i love that ATV
+[1:47:24] helleg_f: peepotank
+[1:47:33] kickinwing0: tank
+[1:47:35] Murcielago_0: Hanging up on the bros and the hoes
+[1:47:38] kickinwing0: peepotank
+[1:47:39] Ju5tScott: (يلا) Yalla is a very common informal Arabic expression that roughly means "come on," "let's go," or "hurry up"
+[1:47:39] meanMestar: ää
+[1:47:43] meanMestar: peepotank
+[1:47:52] vic__boss: peepotank
+[1:48:59] NeverNu: hude under a bridge
+[1:49:00] HighRadiationZone: outrun them?? Shruge
+[1:49:03] NeverNu: hide
+[1:49:23] IsaakSirko: you have polish money
+[1:49:34] glsabre: where are you going?
+[1:49:37] IsaakSirko: police cars do not have music
+[1:49:42] HighRadiationZone: has no radio
+[1:49:45] KidLudens: theres no radios in a army tank i dont think puppyGiggle
+[1:50:09] Murcielago_0: Radios in tanks would make war better fr
+[1:50:09] Slacker1977: Noose? subtle as ever, GTA
+[1:50:10] glsabre: there was a cop on the sidewalk
+[1:50:11] phoenix0801_12: So run and gun we out here LUL
+[1:50:13] IsaakSirko: you are driving a bik ass tank. and you are asking how did they spot you
+[1:50:18] IsaakSirko: big
+[1:51:09] helleg_f: ELPERMASSACRE
+[1:51:32] NeverNu: At least its only 1 star nown
+[1:51:33] toflow: garfhiii Strrawbnuy and chatterinos
+[1:51:33] phoenix0801_12: Oh ok we see you LUL LUL
+[1:51:35] glsabre: radios dont usually come with radios and tanks dont usually come with tanks or radios
+[1:51:51] Murcielago_0: We killed every police unit nice
+[1:51:57] vic__boss: LUL just killed them all
+[1:52:43] Ju5tScott: @toflow LICKA <3
+[1:52:53] kickinwing0: @toflow peepoHey
+[1:53:21] ThatAsadThough: that i have a dream though
+[1:53:21] KidLudens: pp dreaming puppyPause
+[1:53:23] kickinwing0: drinking about growing pp mhm
+[1:53:27] kickinwing0: dream*
+[1:53:28] Murcielago_0: Flashback dream hell yeh
+[1:53:28] toflow: @ju5tscott LICKA denzhyHug
+[1:53:44] toflow: @kickinwing0 bnovaWave
+[1:53:44] glsabre: yaaay youy made it!
+[1:53:45] saren_n7: not so subtle messaging but ok... CHAT let's make her dream come true!
+[1:54:13] phoenix0801_12: I’m going to stay happily confused about the pp dream 😴
+[1:54:24] robrman: @HighRadiationZone yea i checked the vod for context. "y'allah, he is the greatest technical advisor in the whole city" so in this context its effectively oh my god
+[1:54:34] robrman: i meaaaan it is possible
+[1:54:40] robrman: we;'re at 43
+[1:54:43] saren_n7: umm
+[1:54:53] robrman: my chicken si ready though rayleneRUN
+[1:54:57] glsabre: !pp
+[1:54:57] meanMestar: uhmm umm emm
+[1:54:58] Nightbot: elp me reach 100 pp points to keep 60/40 split with twitch ♥ tier 1 - 1pp, tier 2 - 2pp, tier 3 - 6pp ♥ (month 3/3 - november)
+[1:55:08] glsabre: booni wants all the pp
+[1:55:10] phoenix0801_12: That would definitely qualify as random LUL LUL LUL
+[1:55:21] kickinwing0: dreaming about 100 pp SMH
+[1:55:35] Murcielago_0: 19:00 is my guess
+[1:55:37] HighRadiationZone: @robrman mhm
+[1:56:44] glsabre: boongi is salacious and foaming at the mouth for pp
+[1:56:45] IsaakSirko: do you speak to your cat in polish too
+[1:57:00] glsabre: w maya
+[1:57:01] NeverNu: she doesnt caren
+[1:57:06] kickinwing0: Chat is look'n cute tonight Flirt
+[1:57:06] HighRadiationZone: MAYA WHERE
+[1:57:13] KidLudens: put subtitles on feeshiNodders
+[1:57:20] NeverNu: Care
+[1:57:21] helleg_f: but maya doesn't understand english strrawSadcat
+[1:57:24] Murcielago_0: “Meow meow meow” or in other words, (keep off my bed next time)
+[1:58:03] KidLudens: puppyJam
+[1:58:06] helleg_f: DANCER
+[1:58:11] Murcielago_0: Freak shift again strrawFreaky
+[1:58:17] meanMestar: DANCER
+[1:58:25] Murcielago_0: ??
+[1:58:26] BavarianTart: LUL ͏
+[1:58:27] helleg_f: "I'm covering my eyes" she says while staring
+[1:58:32] helleg_f: Binoculars
+[1:58:35] HighRadiationZone: stop looking under skirts Susge
+[1:58:40] saren_n7: stop staring u perv... Stare
+[1:58:48] Murcielago_0: Bunny you’d be a terrible man
+[1:58:58] IsaakSirko: just a regular pub
+[1:59:01] helleg_f: staring is part of the job NODDERS
+[1:59:03] kickinwing0: stop looking up girls dresses worryStick
+[1:59:18] KidLudens: puppyPout
+[1:59:55] KidLudens: stare (respectfully) kidlud1Nod
+[1:59:58] Murcielago_0: These horny bastards
+[2:00:00] kickinwing0: bro is doing ball inspections in game too
+[2:00:10] robrman: no talking yoonahkornNOTED
+[2:00:12] vic__boss: krystDancePotato krystDancePotato
+[2:00:13] Murcielago_0: No no they definitely fucked
+[2:00:22] saren_n7: Sway
+[2:00:50] meanMestar: Sway
+[2:01:05] Murcielago_0: This nightclub got like 3 songs on repeat 0/10
+[2:01:15] helleg_f: PUNCHOUT
+[2:02:36] arlissonn_: suzooiTwerkright suzooiTwerkleft strrawKittyjam
+[2:02:58] robrman: eavMonka baba what are you doing here
+[2:04:15] helleg_f: uhmm
+[2:04:19] Murcielago_0: Lmaoo
+[2:04:22] Murcielago_0: What a freak
+[2:04:34] saren_n7: BRUHMM
+[2:04:35] robrman: eavDeadge
+[2:04:36] Murcielago_0: strrawFlushed
+[2:04:52] helleg_f: WHAT
+[2:04:53] robrman: im shocked boon
+[2:04:54] arlissonn_: strrawBinoculus
+[2:04:55] Murcielago_0: FINALLY
+[2:05:49] saren_n7: HUH
+[2:05:55] helleg_f: plink
+[2:05:57] Ravitude: sunaWaves Hello streamer lady.
+[2:06:00] Eponymous_Alias: Luis too classy for that
+[2:06:02] Murcielago_0: now we are getting into the real issues of this game
+[2:06:09] phoenix0801_12: That should never be an option LUL LUL
+[2:06:10] LTDMONSTER2: true how did you get a license
+[2:06:12] roshpatoits: unlike you, luis doesnt sit in the cuck chair
+[2:06:21] HighRadiationZone: not royal enough for the cuck thone gnomed
+[2:06:22] Ravitude: Just remember - A Glizzy a Day keeps the Police Away
+[2:06:29] LTDMONSTER2: ALLO
+[2:06:37] roshpatoits: bnovaWave
+[2:07:00] LTDMONSTER2: HUH
+[2:07:10] LTDMONSTER2: do you have an ikea near you
+[2:07:14] Ravitude: PrideFloat I'll grab you a glizzy.
+[2:07:24] HighRadiationZone: maybe you need more protein powder and white monster instead
+[2:07:24] LTDMONSTER2: go there and buy glizzies
+[2:07:39] robrman: emergency in her pants
+[2:07:44] helleg_f: SEGS emergency
+[2:07:44] Nightbot: segss
+[2:07:48] NeverNu: bonita8Smart
+[2:07:56] robrman: how is this an emergency
+[2:08:09] kickinwing0: SCHIZO
+[2:08:26] phoenix0801_12: I’ll simply say thanks to the ausie who said follow you I’m crying LUL LUL
+[2:08:28] Murcielago_0: Wow anxiety episode instead of segs
+[2:08:33] NeverNu: oh she didnt even want it
+[2:08:55] HighRadiationZone: @Murcielago_0 could've titled that mission BUNGY fr fr fr gnomed
+[2:09:25] phoenix0801_12: Yes I couldn’t remember thanks
+[2:09:40] HighRadiationZone: i hate when security pulls me out the club by the dick
+[2:09:55] kickinwing0: vibePls
+[2:10:06] Murcielago_0: Song song song song song song song
+[2:10:09] helleg_f: song song song song song AAAA
+[2:10:12] saren_n7: INSANECAT
+[2:10:25] vic__boss: LUL
+[2:10:55] saren_n7: Sway
+[2:11:03] Murcielago_0: Badman song song song
+[2:11:50] ThatAsadThough: that samsung though
+[2:12:13] phoenix0801_12: Nice so driving in gta is difficult SeemsGood LUL
+[2:12:22] Murcielago_0: IT NEVER ENDS
+[2:12:31] kickinwing0: hasan
+[2:12:39] vic__boss: LUL
+[2:13:03] IsaakSirko: gta 5 returns to classic driving system, because gta 4 driving was so criticized
+[2:13:25] helleg_f: it's almost like you can't turn as well when you're going full speed er
+[2:13:26] Murcielago_0: GTA 6 will be like this but better
+[2:13:31] phoenix0801_12: I’ve never played any gta but I bought 6 because of the hype
+[2:14:40] HighRadiationZone: aren't you literally a mod in krys' steam?? how are you gonna evade spoilers when she plays it Susge
+[2:14:49] NeverNu: Oslo?
+[2:14:54] Murcielago_0: I think 5 will take you longer than a week if you plan to play gta 6 right away
+[2:14:58] Ravitude: shinydCry But who will entertain me while you're gone?!
+[2:15:05] Raging__Savage: strrawHamcheer strrawHamdance
+[2:15:24] HighRadiationZone: you splashed hm with water
+[2:15:50] Ju5tScott: OMG OMG OMG what if Chippy streamed while boooni was gone POGGIES
+[2:16:06] Murcielago_0: @Ju5tScott Now we’re talking
+[2:17:25] meanMestar: LMAO
+[2:17:25] HighRadiationZone: @Murcielago_0 she's not gonna play it till the pc version comes out
+[2:17:34] HighRadiationZone: which is like next year
+[2:17:42] Randyio: Boon will forget all about us in norway strrawSadcat
+[2:17:51] robrman: wait what day are you leaving
+[2:17:55] Murcielago_0: @HighRadiationZone Yeh I know but she said a week before the game releases on pc I think
+[2:18:03] Murcielago_0: Maybe I misunderstood
+[2:18:28] NeverNu: are you gonna stay in one of those glass igloos and see the northern lights
+[2:18:31] HighRadiationZone: @Murcielago_0 pretty sure i read it'll release in the first quarter of next year Aware
+[2:19:10] meanMestar: q1 can be 2 or 5 months
+[2:19:20] robrman: leaving right after poe league start Susge
+[2:19:23] Murcielago_0: Phantom blade is so good strrawFreaky
+[2:19:24] HighRadiationZone: you'll literally start when the hype dies down KEKW
+[2:19:54] robrman: quarter 1
+[2:20:52] Murcielago_0: All the big streamers will take the views initially anyways smh
+[2:20:52] robrman: maybe fubgoon...is actually fugboon after all Susge
+[2:21:03] NeverNu: imagine bunny in gta rp
+[2:21:08] meanMestar: doge3Head 🔮 gta 6 hype will last 3 days
+[2:21:19] meanMestar: people who want to play it arent watching it
+[2:21:20] Murcielago_0: I’d rather watch Kai cenat play it over you strrawNerd
+[2:21:34] HighRadiationZone: @Murcielago_0 oh no not the bot views Sadge
+[2:21:35] robrman: none of the streamers i watch will be playing it SeemsGood
+[2:21:41] meanMestar: LMAO
+[2:21:50] NobleWolf: Hmm
+[2:21:50] ThatAsadThough: that remember when she did kruger role play though?
+[2:22:02] HighRadiationZone: oh the findom wheel
+[2:22:16] Lyka___: Kreygasm
+[2:22:17] meanMestar: gta rp can be funny if funny people are doing it
+[2:22:22] helleg_f: LULE
+[2:22:23] Lyka___: YES BOON Kreygasm
+[2:22:31] NeverNu: some people just be themselves
+[2:22:38] Ju5tScott: do you have like another secret account or something Stare
+[2:23:10] robrman: yea but i still watch my streamers while i play unless im also streaming
+[2:23:47] Tamiel: sounds like the wedding needed better security
+[2:23:55] meanMestar: i promise you gta6 will birth some twitch memes about how it runs so bad or has bugs etc
+[2:24:16] meanMestar: i can see it ainnHmm
+[2:24:24] HighRadiationZone: it already gave birth to a bunch of lucia gooners
+[2:24:24] Ju5tScott: so you were just fin doming on main then LUL
+[2:24:28] robrman: i hope its great, but im not all that confident it will be
+[2:24:37] NobleWolf: NODDERS
+[2:24:50] NobleWolf: no pc no buy NOPE
+[2:24:57] arlissonn_: rip bananacat
+[2:25:09] meanMestar: its always just annoying when people are hyping something they dont care about and its funny when their dreams are crushed
+[2:25:21] meanMestar: idk i just enjoy when fanboys get taught a lesson
+[2:25:26] HighRadiationZone: BUNGY totally wouldn't say no to a paypig Chadge
+[2:25:45] ThatAsadThough: that what about a furry though?
+[2:25:52] Murcielago_0: Mestar is a pro hater
+[2:26:05] HighRadiationZone: @ThatAsadThough she's already done with her furry phase Sadge
+[2:26:08] meanMestar: i just realised the 30fps cap was just confirmed a few days ago and months ago i was laughing at my friends telling then gta 6 will be capped at 30 fps
+[2:26:09] helleg_f: strrawSadcat
+[2:26:10] meanMestar: and they didnt believe me
+[2:26:13] kickinwing0: Bspank
+[2:26:17] NeverNu: strawmoney her findom acc
+[2:26:19] Ju5tScott: wow you're mean to me for free all the time what a bargain
+[2:26:35] arlissonn_: strrawCry
+[2:27:37] huntingshunt111: you're pretty hurt
+[2:27:48] saren_n7: chat pov
+[2:27:49] HighRadiationZone: she even calls me a pussy in the vc for free just because I have a job Chadge
+[2:27:50] huntingshunt111: no amour
+[2:28:01] huntingshunt111: armor*
+[2:29:01] helleg_f: Kissahomie
+[2:29:23] Ju5tScott: Rude
+[2:30:28] Ju5tScott: I miss my brother Sadge
+[2:30:30] helleg_f: WAJAJA
+[2:30:47] robrman: its a little below average
+[2:30:48] helleg_f: @Ju5tScott dankHug
+[2:30:53] kickinwing0: 4 inch is above average
+[2:31:00] robrman: 10cm
+[2:31:01] Murcielago_0: It’s like the length of a bus
+[2:31:07] Ju5tScott: @helleg_f dankHug
+[2:31:24] robrman: the average is around 13cm
+[2:31:34] helleg_f: mesuring penits with unscientific units SMH
+[2:32:31] kickinwing0: some say 4 inch is too big mhm
+[2:32:44] Murcielago_0: Ah shit…
+[2:32:59] HighRadiationZone: big enough for BUNGY as long as you have a decent K/d in cs Chadge
+[2:33:02] huntingshunt111: i don't want to make anyone jelly
+[2:33:42] Murcielago_0: Yeh you get the stinky bullet
+[2:33:57] saren_n7: Sway
+[2:35:25] arlissonn_: savool1Skelefire
+[2:35:34] Murcielago_0: Thank you barrier for saving time
+[2:35:39] arlissonn_: strrawGlorpprayge strrawGlorpprayge strrawGlorpprayge strrawGlorpprayge strrawGlorpprayge
+[2:35:52] saren_n7: OMEGALUL
+[2:35:52] Murcielago_0: Okay
+[2:35:53] IsaakSirko: 3rd time is the charm
+[2:35:55] Tamiel: gta4 driving braryLETSGO
+[2:35:59] huntingshunt111: lol
+[2:36:02] HighRadiationZone: i had a feeling that weould happen
+[2:36:16] saren_n7: no one could have seen that one coming Clueless
+[2:36:18] huntingshunt111: they knew you would land there
+[2:36:40] Murcielago_0: She hit every possible obstacle poor car was better off in the ocean
+[2:37:06] Randyio: !roll bedtime?
+[2:37:06] Nightbot: bedtime?: yes mhm
+[2:37:19] Randyio: Bedge night booner and chat
+[2:37:27] Murcielago_0: Gn strrawPray
+[2:37:34] saren_n7: gn randy tuckk
+[2:37:44] Randyio: night night
+[2:37:48] Murcielago_0: He did nothin don’t blame him
+[2:37:50] Tamiel: wizard262Tuckk
+[2:37:52] Lyka___: beautiful
+[2:37:53] Randyio: !lurk
+[2:37:53] Nightbot: thanks Randyio for loorking Heartgers  ♡
+[2:37:54] saren_n7: you're in the water again
+[2:37:58] HighRadiationZone: LMAO
+[2:38:00] saren_n7: you're not suppose to
+[2:38:02] helleg_f: pepeSteer
+[2:38:08] Randyio: i saw it :p
+[2:38:21] Artie342: chat is she pretending
+[2:38:24] Ju5tScott: peepoliceTricycle
+[2:38:28] Murcielago_0: You were heading straight for the water with or without him strrawSnack
+[2:38:39] HighRadiationZone: maybe you need to wear a safety helmet too Chadge
+[2:38:45] Murcielago_0: Mhm
+[2:38:51] IsaakSirko: rain will not help lol
+[2:41:10] Murcielago_0: Last one there is a rotten egg strrawFreaky
+[2:41:12] IsaakSirko: my hands were shaking there
+[2:41:42] saren_n7: gasp
+[2:41:46] helleg_f: PUNCHOUT
+[2:41:51] HighRadiationZone: bet BUNGY would win in such a contest
+[2:41:53] HighRadiationZone: Chadge
+[2:42:14] Ju5tScott: just shoot him and make him stop talking
+[2:42:19] helleg_f: oooo
+[2:42:41] saren_n7: PUNCHOUT
+[2:42:43] Murcielago_0: Lmaoo
+[2:43:10] Murcielago_0: Don’t tell mum strrawSadcat
+[2:43:45] Fichogamer: proof that bullies cure their insecurities by lashing out on others
+[2:44:31] BikikoKurokawa: Heeeeeeeeeeeeey @strrawbunnyy ! :D <3
+[2:44:42] HighRadiationZone: i totes would've expected the taxi to drive off when she read the message KEKW
+[2:44:43] BikikoKurokawa: How're you? :D
+[2:45:11] HighRadiationZone: I miss MAYA
+[2:45:18] IsaakSirko: Maya took his tongue
+[2:45:39] Artie342: [Love You Hamster GIF by Respective]
+[2:45:47] HighRadiationZone: she's out of frame Sadge
+[2:46:25] Murcielago_0: Take pills yes strrawPray
+[2:47:27] helleg_f: idk I kinda like my legs er
+[2:48:10] Murcielago_0: You don’t want it enough joeyna3Screamlevi
+[2:48:11] phoenix0801_12: Nah
+[2:48:11] robrman: depends which leg and how much
+[2:48:14] robrman: and how much of my leg
+[2:48:17] BikikoKurokawa: Depends on how much. :D
+[2:48:53] Murcielago_0: Think about the opportunity to have a cool metal leg strrawFlushed
+[2:48:58] HighRadiationZone: if it automatically gets replaced with a leg straight outta cyberpunk, sure take it for 20grand
+[2:49:06] Murcielago_0: @HighRadiationZone You know ball
+[2:49:37] robrman: more likely if you get to keep some of the leg, enough to wear a prosthetic
+[2:49:52] HighRadiationZone: @Murcielago_0 hamsterNerd
+[2:50:15] WhyHer: AYO! How’s my favorite person?! nezArrive
+[2:50:35] toflow: @WhyHer I am good peepoSitFishing
+[2:50:40] HighRadiationZone: i can see her car burning
+[2:50:42] toflow: ubcGiggle
+[2:51:03] helleg_f: aloooCatsmile
+[2:51:22] Murcielago_0: She hangs up so naturally what a pro
+[2:51:38] saren_n7: can i have the toe?
+[2:51:40] robrman: get a sick prosthetic and have boon draw something to put on it
+[2:51:42] toflow: cut your to(e) why you want to cut me
+[2:51:47] toflow: ubcSad
+[2:51:59] HighRadiationZone: bro no one is giving you a milli for a damn toe KEKW even a full on heart isn't that expensive I bet KEKW
+[2:52:02] saren_n7: idk
+[2:52:05] saren_n7: sell it?
+[2:52:10] robrman: yea they do that
+[2:52:10] Ju5tScott: every time she shows up for a mission her car is always smoking and about to blow up LUL
+[2:52:13] helleg_f: sell your toe online STONKS
+[2:52:16] Murcielago_0: Sacrifice it and summon a better strrawbunny
+[2:52:18] Artie342: I like toflow more strrawEhampter
+[2:52:24] robrman: idk these days but long ago they would take like a tshirt and put it inside the prosthetic
+[2:52:25] helleg_f: mitosis
+[2:52:25] phoenix0801_12: This line of questioning is hilarious LUL LUL LUL
+[2:52:48] Dmcmuffins: Dmcmuffins subscribed at Tier 1. They've subscribed for 34 months! strrawKittyvibe strrawKittyvibe strrawKittyvibe strrawKittyvibe strrawKittyvibe strrawKittyvibe strrawKittyvibe strrawKittyvibe
+[2:52:52] toflow: @Artie342 dankHug
+[2:53:01] Dmcmuffins: hi hi!
+[2:53:06] HighRadiationZone: maybe not for the leg itself but for doing it I bet there is some fucked up people that would pay you for it
+[2:53:20] Ju5tScott: @toflow = bnovaAngel
+[2:53:35] toflow: @Ju5tScott pshadyHug
+[2:53:49] Artie342: @Dmcmuffins HenloThere
+[2:54:05] Dmcmuffins: strrawMayawave
+[2:54:06] helleg_f: EmotionalCat LoveEmote
+[2:54:10] HighRadiationZone: finally some content Chadge
+[2:54:20] Dmcmuffins: floof
+[2:54:41] Murcielago_0: So nonchalant and cool
+[2:55:09] helleg_f: my cat is only cute when trying to get food Sadge
+[2:55:31] Murcielago_0: Filthy hands strrawCatgun
+[2:55:45] helleg_f: she has to clean herself now eww
+[2:56:02] toflow: Smadge Do not the Cat
+[2:56:13] meanMestar: toe flough HAIII
+[2:56:31] HighRadiationZone: if MAYA was a hooman she'd probably use hand sanitizer after you touched her Susge
+[2:57:54] saren_n7: ratatatatata
+[2:57:54] meanMestar: ratatatatata
+[2:57:56] Murcielago_0: LMAOO
+[2:57:58] Eponymous_Alias: oroLUL
+[2:58:00] helleg_f: ratatatatata
+[2:58:15] HighRadiationZone: FRIENDLY FIRE I REPEAT FRIENDLY FIRE
+[2:58:21] Murcielago_0: get down mr president!!!!
+[2:58:44] toflow: @meanMestar Meowster SALUTEES
+[2:59:19] Murcielago_0: Yep she’s cooked
+[3:00:00] saren_n7: EEK
+[3:00:30] Murcielago_0: Stinkiest escape vehicle
+[3:00:38] phoenix0801_12: Nice well done I’m impressed SeemsGood
+[3:02:09] robrman: LUL
+[3:02:21] robrman: i pikachoose you
+[3:02:42] toflow: I choose all the cuties in chat peepoCute
+[3:02:55] Murcielago_0: I admit defeat
+[3:02:59] BoochieBear2x: Nah you cooked. Stop coping
+[3:03:00] robrman: puppyCute
+[3:03:27] BoochieBear2x: You have a bald spot
+[3:04:20] saren_n7: true, you did get some head mhm
+[3:04:42] saren_n7: o
+[3:04:45] robrman: oh god
+[3:04:47] Murcielago_0: Boon car
+[3:04:52] phoenix0801_12: LUL LUL LUL
+[3:04:55] Murcielago_0: LMAOOOOOO
+[3:04:55] saren_n7: OMEGALUL
+[3:04:57] Murcielago_0: I KNEW IT
+[3:04:59] robrman: donsDead
+[3:05:07] Eponymous_Alias: kdubShame
+[3:05:36] phoenix0801_12: That made me lose my breath LUL LUL LUL
+[3:05:57] Murcielago_0: I guess you were cooked I shall not take back my words again strrawFreaky
+[3:05:58] toflow: YesYes StrrawCutie
+[3:06:22] phoenix0801_12: So close I literally wasn’t prepared LUL LUL
+[3:08:28] arlissonn_: ratatatatata suzooiTwerkright
+[3:09:28] arlissonn_: strrawHamcheer
+[3:10:03] arlissonn_: LUL
+[3:10:46] Murcielago_0: Don’t speak too soon strrawPray
+[3:12:29] Murcielago_0: Are we sitting on laps
+[3:12:51] lambo88v2: boon
+[3:13:22] lambo88v2: hi
+[3:13:42] saren_n7: clappi
+[3:13:46] Murcielago_0: Yay strrawFreaky
+[3:14:27] amyjoannee: 4 raiders from amyjoannee have joined! 
+[3:14:28] Murcielago_0: We know why you are excited freak strrawSideeye
+[3:14:36] amyjoannee: Hey
+[3:14:51] amyjoannee: I’ve just been playing gta 4
+[3:14:53] robrman: welcome strrawFlower
+[3:15:05] Dmcmuffins: party in the clerb!
+[3:15:06] saren_n7: ''quests'' Sure
+[3:15:06] amyjoannee: Yeah main game
+[3:15:21] helleg_f: the music is nice, and the coworkers are very friendly uuh
+[3:15:25] amyjoannee: Haha I gotta go anyway but enjoy xoxoxo
+[3:15:33] Artie342: !shoutout amyjoannee
+[3:15:33] Nightbot: Follow amyjoannee over at https://www.twitch.tv/amyjoannee! They were last playing Grand Theft Auto IV.
+[3:15:37] saren_n7: you started the game and went right for the segs wuh
+[3:15:43] amyjoannee: <3
+[3:15:58] Ju5tScott: not everything is about gooning then then what is it about I'm ...I"m so confused
+[3:16:00] saren_n7: Sure
+[3:16:13] laflamexs: Hello she playing it on ps5?
+[3:16:19] Murcielago_0: Took every npc to the strip club mhm
+[3:16:26] robrman: @laflamexs pc gamer
+[3:16:49] Ju5tScott: you can be a loyal friend and goon soooooo
+[3:16:53] Murcielago_0: I’m pretty sure you can’t even play 4 on ps5 what a shame
+[3:17:23] laflamexs: Damn i wanna play it can’t find it on ps store is it region locked or its doesn't exist
+[3:17:50] Murcielago_0: @laflamexs Doesn’t exist strrawSadcat
+[3:18:28] laflamexs: Daamn
+[3:18:50] robrman: when you try to remember something is that just you looking it up on boongle elisChatting
+[3:19:22] laflamexs: Ahh i see
+[3:19:48] meanMestar: Erm
+[3:20:02] robrman: KEKW
+[3:20:02] meanMestar: Sway
+[3:20:04] helleg_f: WHAT
+[3:20:08] saren_n7: uhmm
+[3:20:13] robrman: yes its true but also fuck you ma'am
+[3:20:35] Ju5tScott: because girls are mean
+[3:20:42] meanMestar: Sway
+[3:20:43] Murcielago_0: Big balls for float ability
+[3:20:57] Ju5tScott: ewww no
+[3:21:00] helleg_f: minor emergency sus
+[3:21:01] toflow: Bungy is one of the homies
+[3:21:02] Murcielago_0: Uh oh strrawO
+[3:21:06] Dmcmuffins: on southpark they bounced down the street on their bigg balls.
+[3:21:12] laflamexs: You excited for gta 6? First female protagonist
+[3:21:17] meanMestar: push it down maya
+[3:21:24] Mueldor: my christian eyes
+[3:21:27] robrman: every single time what she needs is dick
+[3:21:31] helleg_f: NotLookingAtBooba
+[3:21:33] Murcielago_0: ????
+[3:21:34] HighRadiationZone: HI MAYA WE LOB YOU
+[3:21:36] Dmcmuffins: she gonna push everything off the table! GET IT
+[3:21:44] helleg_f: uuh did someone take a screenshot
+[3:21:49] saren_n7: INSANECAT song song song song song song
+[3:21:59] HighRadiationZone: let her observe damnit Susge
+[3:22:00] Murcielago_0: Her hard drive definitely goes crazy
+[3:22:00] robrman: bugs out and takes like 30 of them again
+[3:22:11] Artie342: It’s NNN goondia worryStick
+[3:22:20] toflow: Maya conducting important physics experiments
+[3:22:33] helleg_f: pepeSus LoveEmote
+[3:22:46] toflow: yes bnovaStare
+[3:22:55] laflamexs: Gta 6 gonna have a more detailed sceens like this lol it even have of parody app 😆
+[3:23:03] HighRadiationZone: MAYA is qualitytester, if it breaks when it falls it's cheap shit Chadge
+[3:23:27] helleg_f: they have cameras in there wuh
+[3:23:31] Artie342: [Club Dancing GIF by SpongeBob SquarePants]
+[3:23:42] helleg_f: TheVoices
+[3:23:43] Murcielago_0: She broke your window because it was cheap quality mhm
+[3:23:51] toflow: Now Maya will never get into Paw-vard cause she couldn't study the fall of objects
+[3:23:56] toflow: ubcSad
+[3:24:13] Artie342: goondia puts cameras in the toilet
+[3:24:16] Ju5tScott: @toflow IronmouseWah
+[3:24:31] HighRadiationZone: and with all the farts it even becomes hella warm too Susge
+[3:24:40] Artie342: just like her idol dr disrespect
+[3:24:48] helleg_f: uh
+[3:24:58] Ju5tScott: D: she wants to look at our pp's
+[3:25:09] HighRadiationZone: more like meet n sheep because a sheep coplay is mandatory for anyone meeting with you
+[3:25:20] robrman: bleet n greet
+[3:25:33] Murcielago_0: Dont meet this crazy streamer
+[3:25:37] Artie342: he got kicked out of twitch con for streaming in the toilet
+[3:25:57] HighRadiationZone: oh yeah he also got banned for that too iirc
+[3:26:02] robrman: if you ever were in my end of canada i'd even leave my house to say hi
+[3:26:28] HighRadiationZone: that's not realistic dealers contribute to the clubs revenue everyone knows that gnomed
+[3:26:58] Murcielago_0: Do not pull up to London or else strrawCatgun
+[3:27:17] Artie342: london innit bruv
+[3:27:36] toflow: If Bungy ever came to my house I would even open the door and say hi (maybe)
+[3:27:58] Murcielago_0: @toflow This is insane strrawFlushed
+[3:28:03] Artie342: don’t let her in
+[3:28:10] saren_n7: TheVoices
+[3:28:17] Murcielago_0: Song song song song
+[3:28:33] helleg_f: Smadge
+[3:28:50] lambo88v2: fun police
+[3:29:08] toflow: @Artie342 Will I end up on the news if I do? monka
+[3:29:37] Murcielago_0: Artie is a whistleblower
+[3:30:04] Artie342: bros before hoes
+[3:30:09] helleg_f: plink
+[3:30:30] robrman: KEKW
+[3:30:50] Murcielago_0: Lmaooo
+[3:30:51] helleg_f: wuh
+[3:31:32] toflow: "German man dies after being pushed off a desk by Polish streamer"
+[3:31:44] Ju5tScott: boooni does it herself
+[3:32:26] helleg_f: she seemed extremely sane er
+[3:32:27] drillowen: This DLC kind of reminds me of Vice City because of the pink landmarks and that
+[3:32:32] toflow: polish streamer blames it on her cat
+[3:32:39] Artie342: u never sent me a w-9 strrawDamngasp
+[3:33:22] Ju5tScott: hows everyone's pu$$ pu$$?
+[3:33:50] HighRadiationZone: first she is moaning about that she's single and now she is running away from the first man thats crazy about her Susge
+[3:34:12] drillowen: And I mean like Vice City, but better graphics and quality
+[3:34:13] HighRadiationZone: w-9 is bigger than w-8
+[3:34:19] Ju5tScott: okay any volunteers?
+[3:34:46] Murcielago_0: Vice city was a dark time
+[3:35:02] drillowen: Same here I sometimes found it pretty frustrating man not going to lie
+[3:35:06] HighRadiationZone: she malded hella hard over vice city which is crazy since she is used to getting owned as a souls gamer KEKW
+[3:35:11] robrman: surely
+[3:35:15] alextheplatformer: Ooh
+[3:35:15] robrman: theres a flood boon
+[3:35:21] helleg_f: sus
+[3:35:21] robrman: thats the emergency
+[3:35:33] Murcielago_0: The worst part was her sucking at the chaos meter mission strrawFreaky
+[3:35:38] kickinwing0: i hope there is cone crazy in this one
+[3:35:45] robrman: unfortunately it is
+[3:36:04] meanMestar: JAJAJAJA
+[3:36:08] alextheplatformer: Wow
+[3:36:11] kickinwing0: PawgChamp
+[3:36:14] robrman: see
+[3:36:14] saren_n7: here we go again... Stare
+[3:36:15] helleg_f: Bspank
+[3:36:19] alextheplatformer: Best DLC ever
+[3:36:21] Murcielago_0: Reused scenes booooooooo not enough for the cuck viewers
+[3:36:25] robrman: that woman only wants one thing
+[3:36:49] alextheplatformer: That and red dead dlc
+[3:37:11] HighRadiationZone: MAYA is ... PUSHING IT TO THE LIMIT
+[3:37:15] Murcielago_0: Song song song song song
+[3:37:16] drillowen: Yes I do like this DLC better than TLAD DLC imo
+[3:37:29] alextheplatformer: Song
+[3:37:55] helleg_f: aaaaaaaaa

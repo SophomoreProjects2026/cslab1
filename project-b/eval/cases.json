@@ -1,0 +1,82 @@
+[
+    {
+        "id": "boo",
+        "input": "boo.txt"
+    },
+    {
+        "id": "bot",
+        "input": "bot.txt"
+    },
+    {
+        "id": "bro",
+        "input": "bro.txt"
+    },
+    {
+        "id": "cli",
+        "input": "cli.txt"
+    },
+    {
+        "id": "dan",
+        "input": "dan.txt"
+    },
+    {
+        "id": "got",
+        "input": "got.txt"
+    },
+    {
+        "id": "iss",
+        "input": "iss.txt"
+    },
+    {
+        "id": "jyn",
+        "input": "jyn.txt"
+    },
+    {
+        "id": "kes",
+        "input": "kes.txt"
+    },
+    {
+        "id": "low",
+        "input": "low.txt"
+    },
+    {
+        "id": "pho",
+        "input": "pho.txt"
+    },
+    {
+        "id": "ray",
+        "input": "ray.txt"
+    },
+    {
+        "id": "slu",
+        "input": "slu.txt"
+    },
+    {
+        "id": "spa",
+        "input": "spa.txt"
+    },
+    {
+        "id": "spe",
+        "input": "spe.txt"
+    },
+    {
+        "id": "str",
+        "input": "str.txt"
+    },
+    {
+        "id": "swe",
+        "input": "swe.txt"
+    },
+    {
+        "id": "syp",
+        "input": "syp.txt"
+    },
+    {
+        "id": "tan",
+        "input": "tan.txt"
+    },
+    {
+        "id": "wit",
+        "input": "wit.txt"
+    }
+]

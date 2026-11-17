@@ -1,7 +1,9 @@
 import os
 import random
 from fastmcp import FastMCP
+import re
 mcp = FastMCP("NOVIN-SIMTH-AGENT")
+
 
 @mcp.tool
 def get_unclassified_file() -> tuple[str, str]:
@@ -17,10 +19,9 @@ def get_unclassified_file() -> tuple[str, str]:
     data = file.read()
     file.close()
     return (available_files[choice], data)
-    
 
 @mcp.tool
-def classify(id: str , category: str ) -> None:
+def classify(id: str, category: str ) -> None:
     """Classify a file by its id (file name)."""
     
     if ".." in id or ".." in category:
@@ -34,6 +35,8 @@ def get_categories() -> list[str]:
     directories = os.listdir("workspace")
     directories.remove("unsorted")
     return directories
+
+
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")
